@@ -1,0 +1,62 @@
+cho mình xin thông tin về mùa hè xanh hồ chí minh nha bạn|activity
+xuân tình nguyện 2019 cho những ai tham gia vậy nhỉ|joiner
+khoa máy tính năm nay có tổ chức chào người bạn mới không bạn|activity
+bạn cho mình hỏi chút về hoạt động xuân tình nguyện ở quận 10 nha|activity
+hoạt động chào người bạn mới diễn ra vào ngày 20/2/2019 được tổ chức ở số nhà mấy vậy|address
+cho mình xin thông tin về  lợi ích chào người bạn mới do khoa máy tính tổ chức với nha|reward
+cho tui hỏi tí chiến dịch mùa hè xanh thành phố cho sinh viên khoa hóa tham gia không ta|joiner
+cse connection ở 602H6 muốn tham gia thì làm như thế nào ta|register
+cho xin thông tin ghi danh tham dự hậu duệ pascal diễn ra ngày 30/2/2019 với nha|register
+câu lạc bộ ai do thầy thơ tổ chức cho ai tham gia vậy bạn|joiner
+nhờ bạn gửi cho mình ít thông tin người liên hệ của cuộc thi cuộc đua số ở h6 chiều nay với nha bồ|contact
+chiến dịch tình nguyện mùa hè xanh được tổ chức vào thời gian nào|time
+năm nay có tổ chức đấu trường ai khoa cse không vậy admin|activity
+ngày mấy thì mình thi hậu duệ pascal ta|time
+ồ vậy cho xin tên hoạt động diễn ra trong tháng 8 cái nha|name_activity
+cho xin tên hoạt động diễn ra ở hà nội mà do bách khoa hà nội tổ chức á|name_activity
+gửi cho mình link đăng ký mùa hè xanh 2019 với bạn ơi|register
+hoạt động nào thì đi làm đường vậy bạn|activity
+mùa hè xanh là đi làm đường phải không vậy bạn|work
+cse connection là do khoa hóa học tổ chức phải không bạn|holder
+khi nào thì chiến dịch mùa hè xanh của ban truyền thông mới được tổ chức nhỉ|time
+đi phát cháo cho người bệnh ở bệnh viện ung bưu tphcm diễn ra vào mấy giờ vậy bạn|time
+đi làm đường là công việc của hoạt động nào vậy|activity
+xin chào bạn yêu dấu|hello
+hello bot|hello
+helo bạn|hello
+hi bạn|hello
+cho mình hỏi tí về công việc cụ thể khi tham gia xuân tình nguyện khoa hóa học với nha hi hi hi|work
+helo bạn cho mình hỏi khi đi chiến dịch mùa hè xanh thì làm cái gì vậy bạn|work
+chương trình tạm biệt người yêu dấu ở thủ đức có cho sinh viên trường khác tham gia không bạn|joiner
+mình muốn được tư vấn về thời gian khi tham gia chiến dịch xin chào người tình trăm năm của clb ai tổ chức tại bệnh viện chợ rẩy mới bạn|time
+cho xin thông tin về lợi ích khi tham dự mùa hè xanh ở chợ lách đi bồ|reward
+cho mình hỏi tí thông tin về phần thưởng có được khi tham dự hậu duệ pascal ở tòa h6 cái nha|reward
+được quà gì khi tham gia làm đường ở mùa hè xanh vậy bạn|reward
+đi phát cháo có được tặng gì không bạn|reward
+được bao nhiêu tiền nếu mình đăng ký tham dự mùa hè xanh thành phố do khoa mỹ thuật và clb ai phối hợp tổ chức|reward
+cho mình xin thông tin về số tiền đạt được khi đạt giải nhất cuộc đua số do ban chấp hành cse tổ chức đi|reward
+đi hiến máu có được sữa, trái cây và bánh không bạn|reward
+được tặng vé xem phim miễn phí khi tham dự hiến máu chứ bạn|reward
+cho xin thông tin về địa điểm tổ chức mùa hè xanh đi bạn|name_place
+clb ai tổ chức sinh hoạt cuối tuần ở đâu nhỉ|name_place
+cho mình hỏi nơi sinh hoạt của clb ai đi bạn|name_place
+nấu cháo trong chiến dịch xuân tình nguyện diễn ra tại đâu vậy|name_place
+chỗ nào diễn ra xuân tình nguyện của khoa hóa vậy bạn ơi|name_place
+cho mình hỏi nơi tổ chức chiến dịch hoa phượng đỏ vào tháng 8 đi ban|name_place
+cho xin tí thông tin về chỗ diễn ra nấu cháo từ thiện ngày 20/1/2019 với nha|name_place
+cho hỏi về khu tổ chức xuân tình nguyện 2019 nha|name_place
+cho hỏi hành trình tạm biệt quá khứ diễn ra tại khu a nhà thi đấu phải không vậy|name_place
+nhà ăn h6 diễn ra phát cháo từ thiện do khoa máy tính phối hợp với clb ai tổ chức phải không bạn|name_place
+trước sân sinh hoạt của câu lạc bộ ai là nơi diễn ra tập huấn mùa hè xanh phải không bạn|name_place
+nhà thi đấu đa năng quân khu 7 sẽ là nơi diễn ra sự kiện diễu hành vào tháng 8 này đúng không bạn|name_place
+đi mùa hè xanh là tập trung tại 303h6 phải không vậy|name_place
+cuộc thi lập trình IT hậu duệ pascal do đoàn khoa tổ chức là diễn ra ở nhà trung tâm H6 phải không bạn ơi|name_place
+cho mình hỏi là minathon là diễn ra ở sảnh thư viện cơ sở 2 phải không bạn|name_place
+cho hỏi phát cháo cho người nghèo là địa chỉ nào bạn|address
+cho mình xin thông tin số nhà của hoạt động phát cháo miễn phí đi bạn|address
+bán áo gây quỹ là tổ chức ở quận nào vậy|address
+số nhà của hoạt động tình nguyện bán báo từ thiện do đoàn khoa tổ chức là bao nhiêu vậy bạn|address
+hoạt động dạy học cho trẻ em ở làng sos do khoa máy tính tổ chức ở địa chỉ nào vậy bạn|address
+32 tăng bạc hổ có phải là địa chỉ tổ chức hoạt động dạy học cho trẻ em ở làng sos không bạn|address
+số nhà 35 lý thường kiệt quận tân bình có phải là nơi diễn ra sự kiện nấu cháo cho trẻ em cơ nhỡ của khoa máy tính diễn ra vào ngày mai không bạn|address
+hoạt động từ thiện đi xe đạp gây quỹ của ban chấp hành có phải được diễn ra ở quận tân bình số nhà 356 không bạn|address
