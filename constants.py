@@ -14,7 +14,7 @@ from sklearn.externals import joblib
 from sklearn import preprocessing
 
 #MODEL LANGUAGE, CLASSIFIER
-CONST_THRESHOLD=0.7
+CONST_THRESHOLD=0.75
 list_label=['contact','register','activity','work','joiner']
 le = preprocessing.LabelEncoder()
 y = le.fit_transform(list_label)

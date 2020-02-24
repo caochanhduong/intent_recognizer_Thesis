@@ -6,7 +6,7 @@ Message: hoạt động chào người bạn mới diễn ra vào ngày 20/2/201
 Message: cho mình xin thông tin về  lợi ích chào người bạn mới do khoa máy tính tổ chức với nha 	 Intent_label: reward 	 Intent_predict: activity 	 Probability: 0.8140300529874493 	 Success: False 
 Message: cho tui hỏi tí chiến dịch mùa hè xanh thành phố cho sinh viên khoa hóa tham gia không ta 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9530463746625278 	 Success: True 
 Message: cse connection ở 602H6 muốn tham gia thì làm như thế nào ta 	 Intent_label: register 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
-Message: cho xin thông tin ghi danh tham dự hậu duệ pascal diễn ra ngày 30/2/2019 với nha 	 Intent_label: register 	 Intent_predict: activity 	 Probability: 0.7065438085624735 	 Success: False 
+Message: cho xin thông tin ghi danh tham dự hậu duệ pascal diễn ra ngày 30/2/2019 với nha 	 Intent_label: register 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
 Message: câu lạc bộ ai do thầy thơ tổ chức cho ai tham gia vậy bạn 	 Intent_label: joiner 	 Intent_predict: contact 	 Probability: 0.861924338712576 	 Success: False 
 Message: nhờ bạn gửi cho mình ít thông tin người liên hệ của cuộc thi cuộc đua số ở h6 chiều nay với nha bồ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8598099225463677 	 Success: True 
 Message: chiến dịch tình nguyện mùa hè xanh được tổ chức vào thời gian nào 	 Intent_label: time 	 Intent_predict: time 	 Probability: 1.0 	 Success: True 
@@ -18,11 +18,11 @@ Message: gửi cho mình link đăng ký mùa hè xanh 2019 với bạn ơi 	 In
 Message: hoạt động nào thì đi làm đường vậy bạn 	 Intent_label: activity 	 Intent_predict: work 	 Probability: 0.8740541002053142 	 Success: False 
 Message: mùa hè xanh là đi làm đường phải không vậy bạn 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9075681016194144 	 Success: True 
 Message: cse connection là do khoa hóa học tổ chức phải không bạn 	 Intent_label: holder 	 Intent_predict: activity 	 Probability: 0.8766027284004958 	 Success: False 
-Message: khi nào thì chiến dịch mùa hè xanh của ban truyền thông mới được tổ chức nhỉ 	 Intent_label: time 	 Intent_predict: activity 	 Probability: 0.744093090304654 	 Success: False 
+Message: khi nào thì chiến dịch mùa hè xanh của ban truyền thông mới được tổ chức nhỉ 	 Intent_label: time 	 Intent_predict: time 	 Probability: 1.0 	 Success: True 
 Message: đi phát cháo cho người bệnh ở bệnh viện ung bưu tphcm diễn ra vào mấy giờ vậy bạn 	 Intent_label: time 	 Intent_predict: time 	 Probability: 1.0 	 Success: True 
 Message: đi làm đường là công việc của hoạt động nào vậy 	 Intent_label: activity 	 Intent_predict: work 	 Probability: 0.9382430275211191 	 Success: False 
 Message: xin chào bạn yêu dấu 	 Intent_label: hello 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
-Message: hello bot 	 Intent_label: hello 	 Intent_predict: work 	 Probability: 0.720376328795974 	 Success: False 
+Message: hello bot 	 Intent_label: hello 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
 Message: helo bạn 	 Intent_label: hello 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
 Message: hi bạn 	 Intent_label: hello 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
 Message: cho mình hỏi tí về công việc cụ thể khi tham gia xuân tình nguyện khoa hóa học với nha hi hi hi 	 Intent_label: work 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
@@ -56,8 +56,967 @@ Message: cho hỏi phát cháo cho người nghèo là địa chỉ nào bạn 	
 Message: cho mình xin thông tin số nhà của hoạt động phát cháo miễn phí đi bạn 	 Intent_label: address 	 Intent_predict: address 	 Probability: 1.0 	 Success: True 
 Message: bán áo gây quỹ là tổ chức ở quận nào vậy 	 Intent_label: address 	 Intent_predict: address 	 Probability: 1.0 	 Success: True 
 Message: số nhà của hoạt động tình nguyện bán báo từ thiện do đoàn khoa tổ chức là bao nhiêu vậy bạn 	 Intent_label: address 	 Intent_predict: address 	 Probability: 1.0 	 Success: True 
-Message: hoạt động dạy học cho trẻ em ở làng sos do khoa máy tính tổ chức ở địa chỉ nào vậy bạn 	 Intent_label: address 	 Intent_predict: address 	 Probability: 1.0 	 Success: True 
+Message: hoạt động dạy học cho trẻ em ở làng sos do khoa máy tính tổ chức ở quận 10 phải không nhỉ 	 Intent_label: address 	 Intent_predict: activity 	 Probability: 0.7818733886561561 	 Success: False 
 Message: 32 tăng bạc hổ có phải là địa chỉ tổ chức hoạt động dạy học cho trẻ em ở làng sos không bạn 	 Intent_label: address 	 Intent_predict: address 	 Probability: 1.0 	 Success: True 
 Message: số nhà 35 lý thường kiệt quận tân bình có phải là nơi diễn ra sự kiện nấu cháo cho trẻ em cơ nhỡ của khoa máy tính diễn ra vào ngày mai không bạn 	 Intent_label: address 	 Intent_predict: address 	 Probability: 1.0 	 Success: True 
 Message: hoạt động từ thiện đi xe đạp gây quỹ của ban chấp hành có phải được diễn ra ở quận tân bình số nhà 356 không bạn 	 Intent_label: address 	 Intent_predict: address 	 Probability: 1.0 	 Success: True 
-Success rate: 38.70967741935484 %
+Message: cho tui hỏi chút chương trình từ thiện bán cháo gây quỹ do khoa máy tính tổ chức ở bệnh viện 30 tháng 4 là ở địa chỉ nào vậy  	 Intent_label: address 	 Intent_predict: joiner 	 Probability: 0.7540665876241209 	 Success: False 
+Message: cse connection tổ chức ở đường số mấy ta 	 Intent_label: address 	 Intent_predict: address 	 Probability: 1.0 	 Success: True 
+Message: phường nào diễn ra hoạt động thu gom phế liệu được 3 ngày ctxh 	 Intent_label: address 	 Intent_predict: address 	 Probability: 1.0 	 Success: True 
+Message: cho hỏi chiến dịch mùa hè xanh do khoa máy tính tổ chức tháng 8 này công việc cụ thể là như nào vậy 	 Intent_label: work 	 Intent_predict: activity 	 Probability: 0.7611014530232404 	 Success: False 
+Message: cho mình xin thông tin một số công việc của chiến dịch xuân tình nguyện đầu tháng 1 của khoa xây dựng nha 	 Intent_label: work 	 Intent_predict: activity 	 Probability: 0.7638691549444809 	 Success: False 
+Message: bạn có thông tin về công việc trong hoạt động bán báo gây quỹ của khoa hóa học không 	 Intent_label: work 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: đi xuân tình nguyện là bán báo gây quỹ từ thiện đúng không vậy 	 Intent_label: work 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: tham gia tiếp sức mùa thi là hỗ trợ các em sinh viên tới địa điểm thi đúng không 	 Intent_label: work 	 Intent_predict: joiner 	 Probability: 0.9053743840958305 	 Success: False 
+Message: tham dự chúng ta cùng tiến của câu lạc bộ có phải là hỗ trợ các bạn sinh viên học tốt các môn đại chương phải không bạn 	 Intent_label: work 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: tham gia sinh hoạt công dân vào đầu tháng 9 là tới nghe thầy thông giảng bài nhỉ 	 Intent_label: work 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: thi cuộc thi hậu duệ pascal của khoa máy tính vào cuối tháng 1 là thi lập trình thuật toán đúng không bạn 	 Intent_label: work 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: cho xin thông tin đối tượng tham gia vườn ươm tài năng của khoa vật liệu đi bạn 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8098776767531699 	 Success: True 
+Message: cho tớ hỏi chút về thông tin đối tượng tham gia chương trình hậu duệ pascal của khoa máy tính cuối tháng 2 đi 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.7643558152273104 	 Success: True 
+Message: mình muốn được tư vấn về đối tượng tham gia của hậu duệ pascal 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9442862983218423 	 Success: True 
+Message: hoạt động làm handmade tặng trẻ em khiếm thị có cho sinh viên khoa khác ngoài khoa máy tính tham gia không vậy 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9482189533866039 	 Success: True 
+Message: sinh viên khoa hóa đi chiến dịch xuân tình nguyện của khoa máy tính có được không bạn 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9779638706795203 	 Success: True 
+Message: cse connection tổ chức cuối tháng 9 có cho sinh viên trường khác tham dự không vậy 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9743550469471812 	 Success: True 
+Message: thi hậu duệ pascal có giới hạn số lượng tham gia không bạn 	 Intent_label: joiner 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: nấu cháo ở chiến dịch xuân tình nguyện của khoa máy tính hình như giới hạn 30 sinh viên tham gia phải không bạn  	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8892697678535241 	 Success: True 
+Message: cho hỏi đêm hội trăng rằm của khoa máy tính thì khoa hóa có được tham dự không bạn 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9380525696897234 	 Success: True 
+Message: cuộc thi làm handmade tặng thầy cô chào mừng 20 tháng 11 của đoàn trường có cho người ngoài tham gia không bạn 	 Intent_label: joiner 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: mình muốn tham gia chiến dịch mùa hè xanh khoa vật liệu thì đăng ký như thế nào vậy 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9324236362677655 	 Success: True 
+Message: cho mình xin link đăng ký tham gia cuộc thi hậu duệ pascal khoa máy tính với 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9498288073262552 	 Success: True 
+Message: cho mình hỏi về việc đăng ký tham dự chương trình tiếp sức mùa thi tháng 6 của khoa hóa đi 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.7609290870006876 	 Success: True 
+Message: cho tui hỏi thông tin đăng ký của mùa hè xanh ở thành phố hồ chí minh với bạn 	 Intent_label: register 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: đăng ký thi minathon là ở phòng 602h6 phải không bạn 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9513466012893802 	 Success: True 
+Message: đăng ký tham dự phỏng vấn mùa hè xanh là liên hệ thầy nguyễn thanh tùng phải không vậy 	 Intent_label: register 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: đi bán ve chai gây quỹ ở đường lý thường kiệt là đăng ký cho đội trường của đội đúng không 	 Intent_label: register 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: cuộc thi hậu duệ pascal ở hội trường h6 là đăng ký cho đoàn trường đúng không 	 Intent_label: register 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: gom ve chai ở chung cư ni sư huỳnh liên thứ 2 tới là đăng ký cho thầy tùng hả bạn 	 Intent_label: register 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: đi gom ve chai là đăng ký ở phòng chuyên đề phải không 	 Intent_label: register 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: cho mình xin thông tin liên hệ của chiến dịch xuân tình nguyện của khoa dệt may đi 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8433797875010414 	 Success: True 
+Message: muốn đi bán cháo từ thiện ở quận 10 thì liên hệ bạn nào 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8200657244501507 	 Success: True 
+Message: mình muốn tham gia xây nhà tình thương ở phường 10 vào tháng 1 tới thì liên hệ như thế nào ta 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.7554385059632988 	 Success: True 
+Message: cho xin thông tin liên hệ cuộc thi hậu duệ pascal của khoa máy tính đi bạn 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.855261988975306 	 Success: True 
+Message: đi chiến dịch mùa hè xanh ở bến tre là liên hệ thầy nguyễn thanh tùng phải không bạn 	 Intent_label: contact 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: đi xuân tình nguyện ở thành phố tháng 1 tới là liên hệ hồ minh hoàng phải không 	 Intent_label: contact 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: muốn hỏi về hoạt động gây quỹ xuân yêu thương năm 2019 thì liên hệ bạn nào vậy 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.7567341722089951 	 Success: True 
+Message: hoạt động dọn đường đón tết ở xã vĩnh hòa trong chiến dịch mùa hè xanh liên hệ ai để biết chi tiết vậy bạn 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8084055149938939 	 Success: True 
+Message: đi tiếp sức mùa thi ở trường bách khoa của khoa máy tính là liên hệ thầy nguyễn thanh tùng phải không 	 Intent_label: contact 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: muốn biết thêm thông tin về hoạt động dọn đường đón tết 2020 của khoa ứng dụng thì liên hệ ai 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9850175445893656 	 Success: True 
+Message: cho xin thông tin ban tổ chức của đêm hội trăng rằm khoa máy tính đi bạn ơi 	 Intent_label: holder 	 Intent_predict: contact 	 Probability: 0.8287893275741012 	 Success: False 
+Message: cho mình hỏi chút về thông tin ban tổ chức của chiến dịch mùa hè xanh đi 	 Intent_label: holder 	 Intent_predict: activity 	 Probability: 0.7812930812762358 	 Success: False 
+Message: mình muốn biết về ban tổ chức của sự kiện làm quà từ thiện ở bệnh viện nhi đồng tháng 8 tới 	 Intent_label: holder 	 Intent_predict: contact 	 Probability: 0.8850794976619764 	 Success: False 
+Message: ai tổ chức cuộc thi hậu duệ pascal khoa máy tính vậy bạn 	 Intent_label: holder 	 Intent_predict: contact 	 Probability: 0.7630675716639274 	 Success: False 
+Message: ban tổ chức của tiếp sức mùa thi 2019 là ai vậy 	 Intent_label: holder 	 Intent_predict: contact 	 Probability: 0.9716953254333728 	 Success: False 
+Message: có phải đoàn khoa tổ chức hội thi học thuật lập trình ai năm 2020 không bạn 	 Intent_label: holder 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: cuộc đua số năm 2020 do trường đại học fpt tổ chức hả bạn 	 Intent_label: holder 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: chiến dịch tình nguyện mùa hè xanh 2020 ở xã vĩnh hòa tình bến tre là do đoàn khoa tổ chức phải không vậy 	 Intent_label: holder 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: ban truyền thông khoa máy tính tổ chức cuộc thi hậu duệ pascal phải không bạn 	 Intent_label: holder 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: sự kiện tình nguyện dọn rác vì cộng đồng ở bệnh viện gia định cuối tháng 1 này là do sở y tế tphcm tổ chức hả bạn 	 Intent_label: holder 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: cho xin thông tin thời gian diễn ra tiếp sức mùa thi của khoa máy tính đi bạn ơi 	 Intent_label: time 	 Intent_predict: time 	 Probability: 1.0 	 Success: True 
+Message: mình muốn biết chương trình đêm hội trăng rằm của khoa hóa học diễn ra vào thời gian nào 	 Intent_label: time 	 Intent_predict: time 	 Probability: 1.0 	 Success: True 
+Message: mùa hè xanh khoa máy tính là diễn ra vào tháng 8 phải không bạn 	 Intent_label: time 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: đi phát cháo cho bệnh nhân ung bứu là thứ 2 tới 12/1/2020 phải không 	 Intent_label: time 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: cuộc thi giải mã do khoa máy tính tổ chức là diễn ra vào 1/1/2020 đúng không 	 Intent_label: time 	 Intent_predict: activity 	 Probability: 0.8042522988581485 	 Success: False 
+Message: cho mình xin tên hoạt động diễn ra vào tháng 8 do khoa máy tính tổ chức nha 	 Intent_label: name_activity 	 Intent_predict: activity 	 Probability: 0.9324722968714173 	 Success: False 
+Message: cho xin tên hoạt động tình nguyện diễn ra cuối tháng 2 này với 	 Intent_label: name_activity 	 Intent_predict: activity 	 Probability: 0.83854385169216 	 Success: False 
+Message: mình cần tên hoạt động được 2 ngày công tác xã hội 	 Intent_label: name_activity 	 Intent_predict: name_activity 	 Probability: 1.0 	 Success: True 
+Message: tên hoạt động nào mà được 3 ngày công tác xã hội vậy 	 Intent_label: name_activity 	 Intent_predict: activity 	 Probability: 0.8667029197690043 	 Success: False 
+Message: tên hoạt động nào do khoa máy tính tổ chức vào tháng 3 vậy 	 Intent_label: name_activity 	 Intent_predict: activity 	 Probability: 0.8557422230219469 	 Success: False 
+Message: tên hoạt động mà làm đường cho người dân ở vĩnh hòa là mùa hè xanh phải không 	 Intent_label: name_activity 	 Intent_predict: name_activity 	 Probability: 1.0 	 Success: True 
+Message: cho xin tên hoạt động mà được 3 ngày công tác xã hội mà của khoa máy tính đi 	 Intent_label: name_activity 	 Intent_predict: activity 	 Probability: 0.7529955538356912 	 Success: False 
+Message: chiến dịch tình nguyện mà giúp đỡ các em trong mùa thi là tên gì vậy 	 Intent_label: name_activity 	 Intent_predict: work 	 Probability: 0.7514972251202617 	 Success: False 
+Message: mùa hè xanh là loại hoạt động gì thế 	 Intent_label: type_activity 	 Intent_predict: activity 	 Probability: 0.7767646407480803 	 Success: False 
+Message: hậu duệ pascal do khoa máy tính tổ chức vào tháng 2 là cuộc thi học thuật lập trình hả bạn 	 Intent_label: type_activity 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: cse connection tháng 9 là hội trại giao lưu đúng không bạn 	 Intent_label: type_activity 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: có những loại hoạt động nào diễn ra trong tháng 10 thế 	 Intent_label: type_activity 	 Intent_predict: type_activity 	 Probability: 1.0 	 Success: True 
+Message: hát mãi ước mơ là chương trình văn nghệ đúng không nhỉ 	 Intent_label: type_activity 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: giấc mơ xanh năm 2019 của khoa máy tính là hoạt động gây quỹ từ thiện phải không 	 Intent_label: type_activity 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: tiếp sức mùa thi năm 2020 là hoạt động tình nguyện hả bạn 	 Intent_label: type_activity 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: mùa yêu thương năm 2018 là chương trình kết nối đúng không 	 Intent_label: type_activity 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: làm sao để phòng giống aids do khoa hóa học tổ chức là chương trình chuyên đề hả 	 Intent_label: type_activity 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: bk music club là câu lạc bộ âm nhạc của khoa máy tính đúng không bạn  	 Intent_label: type_activity 	 Intent_predict: contact 	 Probability: 0.8997607511950956 	 Success: False 
+Message: hoạt động nào được 3 ngày ctxh vậy bạn 	 Intent_label: activity 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: năm nay ban truyền thông có tổ chức cuộc thi hậu duệ pascal không vậy 	 Intent_label: activity 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: cho mình xin thông tin về mùa hè xanh do khoa máy tính tổ chức cuối  tháng 8 với nha 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9556767186527098 	 Success: True 
+Message: hoạt động nào được thưởng tiền mặt mà do khoa máy tính tổ chức thế bạn 	 Intent_label: activity 	 Intent_predict: contact 	 Probability: 0.834172933114277 	 Success: False 
+Message: đăng kí câu lạc bộ ai của khoa có cần phỏng vấn không ạ 	 Intent_label: activity 	 Intent_predict: register 	 Probability: 0.9050402255654485 	 Success: False 
+Message: khoa máy tính có những hoạt động nào vậy 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9235007805641366 	 Success: True 
+Message: cho mình xin một số thông tin về đoàn khoa đi? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9472294552249684 	 Success: True 
+Message: sắp tới khoa mình có tổ chức cuộc thi này nữa không vậy  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9080663950445589 	 Success: True 
+Message: cho mình biết về hoạt động khu vường yêu thương với 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9816064753252 	 Success: True 
+Message: thời gian tham gia xuân tình nguyện là bao lâu? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8041534774661231 	 Success: True 
+Message: mình muốn biết thêm thông tin về dynamic day 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8724147836081709 	 Success: True 
+Message: bạn cho mình xin thông tin về câu lạc bộ bkaic 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9102750386935297 	 Success: True 
+Message: khoa máy tính tháng tới có tổ chức hiến máu không vậy  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9281902935432252 	 Success: True 
+Message:  mình cần thông tin về hội trại sắp tới 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8992934701370496 	 Success: True 
+Message: bạn có thông tin về hoạt động nào thế 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9293418692223774 	 Success: True 
+Message: oisp camp là gì vậy bạn 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8258267372508803 	 Success: True 
+Message: đêm hội trăng rằm năm sau còn tổ chức không? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8196411936659527 	 Success: True 
+Message: bot ơi cuộc thi neuron marathon là sao ạ 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8380927497712943 	 Success: True 
+Message: bạn có thể cung cấp cho mình một số thông tin về chiến dịch xuân tình nguyện không? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9498663522608104 	 Success: True 
+Message: bot cho mình biết chi tiết về kms tour đi 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.869603216060954 	 Success: True 
+Message: mình nghe nói chuẩn bị có hiến máu tình nguyện ở bách khoa thì phải 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8271369131630734 	 Success: True 
+Message: job fair là sao ấy 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8747256794422172 	 Success: True 
+Message: cho mình xin thông tin về chiến dịch vào trung thu với 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9955730188479925 	 Success: True 
+Message: bạn giới thiệu mình hoạt động đêm hội trăng rằm đi? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8631246438931167 	 Success: True 
+Message: cho mình hỏi một chút về về hoạt động tình nguyện nha 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9825030178926114 	 Success: True 
+Message: thế có những cuộc thi học thật nào ở trường mình nè 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8250887531092421 	 Success: True 
+Message: cho mình xin thông tin đêm hội trăng rằm 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9075900048431481 	 Success: True 
+Message: mình muốn một số thông tin về hội trại chào người bạn mới 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9400144159958588 	 Success: True 
+Message: bạn biết gì về chiến dịch xuân tình nguyện không 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8786864492194654 	 Success: True 
+Message: mình muốn một số thông tin về hội trại 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9583156790071802 	 Success: True 
+Message: mình muốn biết thêm về các hoạt động ctxh mà liên quan đến từ thiện hoặc môi trường 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.853376217011031 	 Success: True 
+Message: mỗi năm đều có hội trại hay sao ad 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8373768203081139 	 Success: True 
+Message: chiến dịch mùa hè xanh vẫn sẽ được tổ chức đúng không ạ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8919923570238861 	 Success: True 
+Message: thế hoạt động này năm nay có diễn ra không  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8699426759902716 	 Success: True 
+Message: trường mình hiện nay có còn tổ chức mùa hè xanh không 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9421454202616036 	 Success: True 
+Message: đoàn khoa mình có những hoạt động gì vậy bạn 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8485032190648159 	 Success: True 
+Message: mình muốn biết về hoạt động lễ hội trăng rằm 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8971504540498499 	 Success: True 
+Message: cho xin tí thông tin về sự kiện này đi bạn ơi  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8299171133655702 	 Success: True 
+Message: cho mình xin thông tin về cuộc thi sáng tạo phần mềm đi 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9048022547647068 	 Success: True 
+Message: cho mình xin thông tin về chiến dịch xuân tình nguyện với? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9876329344096844 	 Success: True 
+Message: cho mình xin thông tin về jobfair với 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9829369320839015 	 Success: True 
+Message: năm nay hoạt đong này vẫn diễn ra chứ  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9415987109014456 	 Success: True 
+Message: cho mình xin thông tin về sự kiện này càng nhiều càng tốt  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8996831000668578 	 Success: True 
+Message: sắp tới hậu duệ pascal có còn được khoa mình tổ chức không ạ 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9379603491111007 	 Success: True 
+Message: em muốn hỏi về chiến dịch xuân tình nguyện 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8266362561520185 	 Success: True 
+Message: xuân tình nguyện là hoạt động gì vậy ạ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8681849350033066 	 Success: True 
+Message: khoa mình hằng năm có tổ chức hội thao cho sinh viên ko vậy bạn 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9258389876135077 	 Success: True 
+Message: cho mình xin thông tin về hoạt dộng mùa hè xanh được không bạn 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9191126176422861 	 Success: True 
+Message: mình muốn hỏi một chút về jobfair sắp tới 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8899401470955057 	 Success: True 
+Message: sắp tới có chiến dịch mùa hè xanh đúng không nhỉ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8512015028703925 	 Success: True 
+Message: hậu duệ pascal là gì 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.840909375502045 	 Success: True 
+Message: cho mình hỏi một số thông tin về hội trại chào người bạn mới sắp tới với 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9882043133690193 	 Success: True 
+Message: bạn cho mình xin thông tin về hoạt động hiến máu với ạ 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9807654953545826 	 Success: True 
+Message: cho mình xin ít thông tin về mùa hè xanh 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9688725374484224 	 Success: True 
+Message: bạn có biết gì về chiến dịch khu vườn yêu thương không 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9248062645689717 	 Success: True 
+Message: mình cần một số thông tin về hội trại 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8926478095802074 	 Success: True 
+Message: kể cho mình nghe về mùa hè xanh với 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8762486040090285 	 Success: True 
+Message: học sinh năm nhất khoa máy tính có thể tham gia những hoạt động nào bạn nhỉ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8646930107451116 	 Success: True 
+Message: vui lòng cung cấp cho mình thông tin về hoạt động mùa hè xanh 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8709070569329822 	 Success: True 
+Message: oisp camp là gì 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.90148351818198 	 Success: True 
+Message: chương trình hậu duệ pascal là gì 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.858573796999972 	 Success: True 
+Message: có những cuộc thi học thuật nào ở bách khoa nhỉ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8519011482334984 	 Success: True 
+Message: bạn cho mình xin thông tin về chương trình tôi yêu bk có được không 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9319626019827411 	 Success: True 
+Message: ko biết chừng nào mình mới có hoạt động nữa đây ad ơi :(( 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8450221051166186 	 Success: True 
+Message: bạn có biết thông tin về các cuộc thi của khoa máy tính ko 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.889509402549786 	 Success: True 
+Message: sắp tới hậu duệ pascal còn có được khoa mình tổ chức không ạ 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9313463724818883 	 Success: True 
+Message: xuân tình nguyện là sao vậy 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8195587746815354 	 Success: True 
+Message: năm nay có mùa hè xanh không nhỉ 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.891303800580964 	 Success: True 
+Message: 1 năm có bao nhiêu hoạt động hiến máu bạn ơi 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8500679901563608 	 Success: True 
+Message: hội trại cse connection năm sau còn có được tiếp tục tổ chức không ạ 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8358973001583649 	 Success: True 
+Message: cho mình thông tin về hội trại cse connection 2020 đi :) 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9581419239890953 	 Success: True 
+Message: có những hoạt động công tác xã hội nào? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8530500704716372 	 Success: True 
+Message: có hoạt động tình nguyện nào vừa có ích cho xã hội vừa có thể luyện tập khả năng giao tiếp không??? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8280323046496566 	 Success: True 
+Message: neuron marathon là hoạt động gì vậy bạn? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8589696041446544 	 Success: True 
+Message: cho mình xin thông tin về lớp sử dụng thư viện đi 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.844047565984948 	 Success: True 
+Message: ngoài hội trại thì mình còn hoạt động nào khác nữa vậy 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8576230556611484 	 Success: True 
+Message: bạn có thông tin về mùa hè xanh năm nay không cho mình xin với 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9894853006744959 	 Success: True 
+Message: bạn ơi cho mình xíu xiu thông tin về mấy hoạt động ngoại khóa được hem :( 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9780329829257957 	 Success: True 
+Message: năm nay thì hoạt động này còn tổ chức nữa không mình muốn tham gia lắm 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8599909308852398 	 Success: True 
+Message: cái chiến dịch mùa hè xanh là sao vậy 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8637862497217611 	 Success: True 
+Message: cho mình hỏi một số thông tin về về cuộc thi cơn lốc hóa học sắp tới đi  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9207169957073793 	 Success: True 
+Message: cho mình xin thông tin chi tiết về hậu duệ pascal với ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9511430989209966 	 Success: True 
+Message: cho mình xin thông tin về hội trại cse  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9753149489174997 	 Success: True 
+Message: mùa hè xanh là sao nhỉ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8846365094391403 	 Success: True 
+Message: chào ad mình muốn hỏi về hội trại chào người bạn mới sắp tới á 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.7923272871715914 	 Success: True 
+Message: cho mình hỏi một số thông tin về về chiến dịch xuân tình nguyện đi 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9457592210339271 	 Success: True 
+Message: bạn có biết về hội thao của trường không 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8767973479448001 	 Success: True 
+Message: mùa hè xanh là hoạt động gì ạ 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8401558433228575 	 Success: True 
+Message: cho mình xin thông tin về bk job fair 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.903865532886672 	 Success: True 
+Message: mình muốn biết về mùa hè xanh 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8738670800840828 	 Success: True 
+Message: cho mình xin thêm một số thông tin về job fair 2019 với ạ 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9427498603665226 	 Success: True 
+Message: tới đây có hoạt động nào để tham gia và được cộng vào ngày ctxh không ạ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.838185607507525 	 Success: True 
+Message: cho mình hỏi về robocon 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8903532543604026 	 Success: True 
+Message: mùa hè xanh là sự kiện như thế nào vậy bạn ơi? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8134011916950727 	 Success: True 
+Message: vậy bạn có thông tin về chiến dịch xuân tình nguyện không 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9684894348468069 	 Success: True 
+Message: cho mình hỏi thêm một số thông tin về đêm hội trăng rằm với ạ 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9515459899943801 	 Success: True 
+Message: dạo này có hoạt động ngoại khoá gì nhỉ 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.846717134285213 	 Success: True 
+Message: bạn cho mình thông tin ngày hội dynamic đi 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9048096758256046 	 Success: True 
+Message: mình kiểu như hơi mơ hồ chiến dịch mùa hè xanh á  bạn cho mình xíu thông tin nha :(( 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8410196867954531 	 Success: True 
+Message: cho mình xin thông tin về hoạt động mùa hè xanh được không bạn ?  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9119259617849699 	 Success: True 
+Message: xuân tình nguyện năm nào cũng tổ chức à??? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8258864998719648 	 Success: True 
+Message: trường hutech năm nay có tổ chức mùa hè xanh không vậy  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9643575157438262 	 Success: True 
+Message: bạn giới thiệu mình về hội trại cse connection được không? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8764611896543741 	 Success: True 
+Message: sắp tới khoa máy tính có cuộc thi nào không bạn 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.925843010258825 	 Success: True 
+Message: những hoạt động của khoa 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8794501102998814 	 Success: True 
+Message: có khi nào khoa máy tính mình tổ chức mấy hoạt động xã hội hông dạ ad 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8424873647886626 	 Success: True 
+Message: mùa hè xanh là gì thế 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8253290440001617 	 Success: True 
+Message: cho mình hỏi là chiến dịch mùa hè xanh năm nay sẽ diễn ra như thế nào ạ 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.7961795706794309 	 Success: True 
+Message: bạn có thể cho mình một số thông tin về mùa hè xanh năm nay được không? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9318864975252663 	 Success: True 
+Message: bk league là giải gì vậy bạn? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8574868425640079 	 Success: True 
+Message: cho mình xin hoạt động của đoàn khoa 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8809753073111718 	 Success: True 
+Message: mình cần full thông tin về sự kiện này nha  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9435128309893887 	 Success: True 
+Message: tôi muốn hỏi về hoạt động giờ trái đất của khoa môi trường 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8999533937411682 	 Success: True 
+Message: cho mình xin thông tin về hoạt động hiến máu tình nguyện được không? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9624967218038649 	 Success: True 
+Message: hậu duện pascal là gì vậy bạn ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8306045720427659 	 Success: True 
+Message: hội trại là hoạt động gì ạ 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8557464188044732 	 Success: True 
+Message: bạn cho mình biết về hoạt động mùa hè xanh với 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9633583130328824 	 Success: True 
+Message: cho mình xin thêm thông tin về dự án cse assistant được không? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9057358414377308 	 Success: True 
+Message: sao sắp đến tết rồi mà chưa nghe thông báo về đăng kí chiến dịch xuân tình nguyện vậy? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8989980027127454 	 Success: True 
+Message: hội trại cse connection là sự kiện gì mà ai ai cũng tham gia vậy 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8431409810751085 	 Success: True 
+Message: có thông tin đầy đủ về hoạt động này không bạn  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9046991310380889 	 Success: True 
+Message: năm nay hoạt động này còn làm không bạn ơi  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8523618674553162 	 Success: True 
+Message: chương trình chào người bạn mới của khoa mình còn được tổ chức nữa ko ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9134688442376303 	 Success: True 
+Message: năm nay có làm hội trại không ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8324178574035532 	 Success: True 
+Message: sắp tới có làm hoạt động về nguồn nữa không ạ ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8637980719578902 	 Success: True 
+Message: đêm hội trăng rằm còn được khoa mình tổ chức không 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9162261940130936 	 Success: True 
+Message: cho mình xin thông tin về bkmedia với 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9829369320839015 	 Success: True 
+Message: hoạt dộng sắp tới 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8377368397895198 	 Success: True 
+Message: sắp tới trường sẽ có những hoạt động nào 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8676264653286233 	 Success: True 
+Message: bạn có thông tin về việc tham gia giúp các tân sinh viên đăng ký ở ký túc xá đầu năm không 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8865189208026275 	 Success: True 
+Message: có cần phải phỏng vấn để đi mùa hè xanh không nhỉ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8121043917104249 	 Success: True 
+Message: cho em hỏi một số thứ về đại hội sắp tới với  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9219917584967868 	 Success: True 
+Message: hội trại của khoa máy tính mình có tên là gì bạn nhỉ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8436975956461106 	 Success: True 
+Message: mùa hè xanh sắp được tổ chức đúng không vậy? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.7956800858166703 	 Success: True 
+Message: bạn biết gì về mùa hè xanh không 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8724173360207206 	 Success: True 
+Message: bạn có thể cho mình xin toàn bộ thông tin về hoạt động này được không  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9282251381642721 	 Success: True 
+Message: cho em hỏi về hội trại cse connection ạ 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8766937062782664 	 Success: True 
+Message: cho mình hỏi thông tin về hội sinh viên 	 Intent_label: activity 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: mình muốn hỏi về thông tin trại cse 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9406659032022113 	 Success: True 
+Message: cho mình xin thông tin về hoạt động oisp camp được không bạn ?  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9505363133722999 	 Success: True 
+Message: thông tin hội trăng rằm 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9239461662922349 	 Success: True 
+Message: bạn ơi chiến dịch xuân tình nguyện là gì vậy ạ ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8548507424990807 	 Success: True 
+Message: công tác đoàn có những gì 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8448392644355099 	 Success: True 
+Message: hoạt động tập huấn này có tổ chức vào năm nay không bạn  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8751381617143359 	 Success: True 
+Message: sắp tới trường mình có hoạt động hội chợ việc làm nào không? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8321273044418392 	 Success: True 
+Message: cho mình xin thông tin về hoạt động hội trợ việc làm với 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9121357156670287 	 Success: True 
+Message: cho mình ít thông tin về tháng quân sự được ko 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9697942344110358 	 Success: True 
+Message: ở khoa có các hoạt động nào vậy 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8648346168810429 	 Success: True 
+Message: chúng ta cùng tiến là gì 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.837937262505777 	 Success: True 
+Message: job fair là gì? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8436579161161095 	 Success: True 
+Message: bạn kể cho mình biết về mùa hè xanh được không 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.843329590533517 	 Success: True 
+Message: bạn cho mình thông tin về ngày hội dynamic đi 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9644491572444107 	 Success: True 
+Message: cho mình xin thông tin về job fair đi bạn 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8716547713917397 	 Success: True 
+Message: cho mình hỏi một số thông tin về cse cup 2019 được không ạ 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9853734019227928 	 Success: True 
+Message: chương trình kiểm định abet được tổ chức hàng năm hay sao?? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8420280607875362 	 Success: True 
+Message: hiện có hoạt động nào sắp diễn ra không 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8869882194839153 	 Success: True 
+Message: mình muốn biết thêm một số thông tin về chiến dịch mùa hè xanh năm nay ạ 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9856219495227027 	 Success: True 
+Message: bây giờ trường mình còn mùa hè xanh không nhỉ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9642787435677962 	 Success: True 
+Message: chương trình kĩ sư tài năng bách khoa 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8808570185831861 	 Success: True 
+Message: hội thảo kỹ năng mềm :))  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8440056342588842 	 Success: True 
+Message: mình cần thông tin về hoạt động này nha  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9230370168999686 	 Success: True 
+Message: cho mình thông tin về câu lạc bộ chúng ta cùng tiến đi? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8653998508761527 	 Success: True 
+Message: cho mình xin ít thông tin về sự kiện đêm hội trăng rằm với? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9785856575563333 	 Success: True 
+Message: cho mình hỏi một số thông tin về xuân tình nguyện 2019 đi ạ 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8488731830921251 	 Success: True 
+Message: cho mình hỏi thêm một số thông tin về đêm hội trăng rằm sắp tới với 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9759317834214092 	 Success: True 
+Message: tôi cần một số thông tin về khóa tập huấn 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9208988250266278 	 Success: True 
+Message: mình muốn biết một số thông tin về hội trại chào người bạn mới sắp tới 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9729683669929067 	 Success: True 
+Message: cho mình xin thông tin về hoạt động mùa hè xanh được không bạn ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9119259617849699 	 Success: True 
+Message: cho mình hỏi chút về việc tham gia hiến máu tình nguyện với 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8457518546640661 	 Success: True 
+Message: hoạt động này năm nay có tổ chức nữa không bạn ơi  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.920552822160118 	 Success: True 
+Message: khoa có sự kiện gì không? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9136723102026248 	 Success: True 
+Message: chương trình đêm hội quản lý còn được khoa tổ chức không bạn 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8702026666342515 	 Success: True 
+Message: hội thảo kỹ năng mềm 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8440056342588842 	 Success: True 
+Message: xuân tình nguyện đợt này có còn tổ chức không ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8593112714155886 	 Success: True 
+Message: cho mình xin thông tin hội trại chào người bạn mới với? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9294045258981056 	 Success: True 
+Message: bạn biết gì về chương trình khu vườn yêu thương không 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9090427413799327 	 Success: True 
+Message: mình muốn tham gia lắm nên cho mình xin thông tin nghen  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8395366797539127 	 Success: True 
+Message: khoa máy tính có tổ chức giải thể thao nào không bạn? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8421341275261702 	 Success: True 
+Message: mình muốn biết thêm thông tin về hoạt động này  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9286271390896339 	 Success: True 
+Message: cho mình hỏi một số thông tin về về chiến dịch xuân tình nguyện đi 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9457592210339271 	 Success: True 
+Message: ngoài hội trại thì còn gì nữa không bạn 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.7966895858191892 	 Success: True 
+Message: mình muốn một số thông tin về các hoạt động tình nguyện 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9843974603330813 	 Success: True 
+Message: cho mình xin thông tin về bk job fair với 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9003175387777351 	 Success: True 
+Message: có những khoa nào có hội trại nhỉ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8742081309140937 	 Success: True 
+Message: các hoạt động tình nguyện của trường mình là gì vậy 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8768286305931384 	 Success: True 
+Message: tôi muốn hỏi về chương trình quyên góp sách vở  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8958018258963976 	 Success: True 
+Message: cho mình hỏi chút về chiến dịch mùa hè xanh với 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9730996881663743 	 Success: True 
+Message: bạn ơi mình muốn hỏi thông tin về jobfair á 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8841237685361412 	 Success: True 
+Message: cho mình xin thông tin về hội  trại oisp camp được không bạn ơi :d ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9012387566507227 	 Success: True 
+Message: khoa máy tính có những hoạt động nào vây 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.9128775377463804 	 Success: True 
+Message: ngoài hội trại thì còn hoạt động nào khác nữa 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8644487157818493 	 Success: True 
+Message: bạn ơi cho xin hết thông tin về hoạt động này với  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.943344080686116 	 Success: True 
+Message: cho mình xin đầy đủ thông tin về hoạt động đi bạn  	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8554925748185074 	 Success: True 
+Message: cho minh hỏi nếu không phỏng vấn thì có được chọn đi chiến dịch xuân tình nguyện không 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8482784968199276 	 Success: True 
+Message: bạn ơi cho mình hỏi chiến dịch xuân tình nguyện là gì ạ ? 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.8485520328674776 	 Success: True 
+Message: cse connection của khoa máy tính nha 	 Intent_label: activity 	 Intent_predict: activity 	 Probability: 0.843102979477223 	 Success: True 
+Message: làm sao để biết thêm thông tin nhỉ  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8687641525234169 	 Success: True 
+Message: mình muốn tham gia chiến dịch mùa hè xanh thì liên hệ ai nhỉ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.927459406228034 	 Success: True 
+Message: mình muốn đăng kí hiến máu tình nguyện thì liên hệ với ai ạ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9536838238362526 	 Success: True 
+Message: muốn tham gia hiến máu thì phải liên hệ ai nhỉ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.934190380416468 	 Success: True 
+Message: liên hệ ai để hỏi về xuân tình nguyện 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9997808668902685 	 Success: True 
+Message: mình muốn tham gia hội trại quá mà hết slot rồi giờ làm sao? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8723725691592823 	 Success: True 
+Message: mình có một vài thắc mắc về chương trình mùa hè xanh thì có thể liên lạc với ai để được giải đáp vậy 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9111013439993937 	 Success: True 
+Message: cho xin email cái người mà tổ chức đi  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8833508803679373 	 Success: True 
+Message: mình muốn trao đổi thêm về hoạt động này  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9073764297990735 	 Success: True 
+Message: cho mình xin email của trưởng ban tổ chức cuộc thi kiến thức cùng asean 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8695725143062673 	 Success: True 
+Message: cho mình xin số điện thoại của trưởng ban tổ chức cuộc thi dấu ấn tình nguyện với 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8731430801028544 	 Success: True 
+Message: mình có việc cần liên hệ đoàn khoa không biết phòng đoàn khoa khoa máy tính ở đâu vậy? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9721381626806429 	 Success: True 
+Message: mình muốn có thêm thông tin thì có cách nào không bạn ơi  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9025654226187929 	 Success: True 
+Message: cho mình xin thông tin liên hệ của hoạt động kms với 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9324877959681788 	 Success: True 
+Message: giờ muốn biết thêm về hội trại cse connection thì hỏi ai bạn nhỉ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8756069064346909 	 Success: True 
+Message: admin là ai vậy 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8856390614961651 	 Success: True 
+Message: để được tham gia các hoạt động tình nguyện thì nên liên hệ ai vậy bạn? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9614373420622335 	 Success: True 
+Message: mình cần thông tin liên hệ nữa  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9967199657787926 	 Success: True 
+Message: cho mình xin thông tin liên hệ của ban tổ chức sự kiện chào ngày bạn mới 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9747895317137388 	 Success: True 
+Message: cho mình xin cách liên lạc với ban tổ chức hội trại chào người bạn mới với 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9785892263547602 	 Success: True 
+Message: làm sao liên lạc với ban tổ chức mùa hè xanh sắp tới  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9424425331157428 	 Success: True 
+Message: bạn cho mình biết cách liên lạc ban tổ chức đi 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9986717897343331 	 Success: True 
+Message: làm thế nào để liên lạc ban tổ chức 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9766231412059833 	 Success: True 
+Message: để đăng kí mùa hè xanh thì hỏi ai vậy? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9528124412985093 	 Success: True 
+Message: mình phải liên hệ ai để tham gia mùa hè xanh? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9225803452217353 	 Success: True 
+Message: mình muốn thông tin liên hệ mùa hè xanh sắp tới  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9313936418531218 	 Success: True 
+Message: ngày hội sách của bách khoa có hoạt động trao đổi hay mua sách không bạn? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8905562706519435 	 Success: True 
+Message: hỏi ai nếu muốn đăng ký vậy bạn 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8842754109892832 	 Success: True 
+Message: hoạt động sắp tới muốn tham gia thì liên hệ ai ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9769255957100554 	 Success: True 
+Message: mình muốn biết thêm một số hoạt động sẽ được tổ chức sắp tới thì liên hệ ai ạ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9949463723696259 	 Success: True 
+Message: có cách nào để mình xin được thêm thông tin không 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8931346809374252 	 Success: True 
+Message: mình đang cần thông tin liên hệ ban tổ chức chiến dịch mùa hè xanh 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9825647203935742 	 Success: True 
+Message: hoạt động này mình muốn tham gia thì trao đổi như thế nào vậy  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8604838722367285 	 Success: True 
+Message: muốn đăng ký tôi yêu bk thì mình liên hệ ai vậy bạn 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9527779631104778 	 Success: True 
+Message: cho mình xin thông tin ban tổ chức xuân tình nguyện à 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9043338363884627 	 Success: True 
+Message: cho mình xin thông tin ban tổ chức chào người bạn mới cse ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9055386436598333 	 Success: True 
+Message: mình cần thông tin liên hệ của ban tổ chức hậu duệ pascal 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.999184293005196 	 Success: True 
+Message: cho mình xin thông tin liên hệ của ban tổ chức đêm hội trăng rằm với? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.988286266654614 	 Success: True 
+Message: bạn ơi mình cần số điện thoại liên hệ nha 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9963118297740243 	 Success: True 
+Message: mình cần liên hệ với bạn nào vậy admin 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9730409926698987 	 Success: True 
+Message: mình nên hỏi ai về hiến máu tình nguyện vậy bạn 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8833619867785059 	 Success: True 
+Message: bạn cho mình link facebook cũng như thông tin liên hệ với btc hội trại connection được không ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9255930947542109 	 Success: True 
+Message: để biết thêm về cse assistant thì liên hệ ai vậy 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9998142630232008 	 Success: True 
+Message: bạn biết ai là bí thư đoàn hội khoa khoa học kỹ thuật máy tính không 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8955157055117019 	 Success: True 
+Message: bạn ơi mình thích hoạt động này thì hỏi thêm thông tin ở đâu nhỉ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8993030554723895 	 Success: True 
+Message: bạn có số điện thoại để mình liên lạc với người tổ chức không 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9936656065730666 	 Success: True 
+Message: cho mình hỏi một tí là nếu mình muốn tham gia thì cần trao đổi với người nào thế  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9061768564463522 	 Success: True 
+Message: trao đổi với ai ta 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.997282589668511 	 Success: True 
+Message: liên hệ ra làm sao  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.974669979311894 	 Success: True 
+Message: cho mình xin thông tin liên hệ của ban tổ chức sự kiện đêm hội trăng rằm 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9870771169705824 	 Success: True 
+Message: tôi muốn tham gia mùa hè xanh thì cần trao đổi ai để được tư vấn? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9549077571544673 	 Success: True 
+Message: bot ơi mình liên hệ ai để lấy thêm thông tin vậy  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9998133405033928 	 Success: True 
+Message: có bao nhiêu câu lạc bộ thế bạn 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8662889316490825 	 Success: True 
+Message: minh đăng kí hậu duệ pascal ở đâu ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8968858680535536 	 Success: True 
+Message: vậy liên hệ ai vậy bạn :d 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9992873555261406 	 Success: True 
+Message: mình có việc cần liên hệ gấp với btc hội trại cse connection 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9253235956607454 	 Success: True 
+Message: cho mình cái  thông tin liên hệ ban tổ chức jobfair đi bạn 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9829436329272686 	 Success: True 
+Message: xin tên bạn nữ xin nhất trường bách khoa đi 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9417033082929526 	 Success: True 
+Message: mình muốn tham gia mùa hè xanh thì liên lạc với ai? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9390846891758975 	 Success: True 
+Message: bạn có link facebook của đội bóng rổ trường mình không bạn? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8692805650992195 	 Success: True 
+Message: mình nên hỏi ai để tìm hiểu cse connection vậy bạn 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9927267447239124 	 Success: True 
+Message: ai chịu trách nhiệm cho ban truyền thông khoa máy tính vậy 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9358511732288948 	 Success: True 
+Message: cho mình info bạn nam đẹp trai nhất khoa mình đi chatbox ơi :d  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8860061468595666 	 Success: True 
+Message: hoạt động sắp tới mình muốn liên  hệ để tham gia thì có thông tin gì không bạn ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9204976624850456 	 Success: True 
+Message: mình muốn đăng kí cse cup 2019 thì liên hệ ai ạ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9570487470660677 	 Success: True 
+Message: cho mình xin thông tin liên hệ của ban tổ chức đêm hội trăng rằm với? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.988286266654614 	 Success: True 
+Message: cho mình hỏi thông tin liên hệ của sự kiện đêm hội trăng rằm 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9318084896214415 	 Success: True 
+Message: hình như hết hạn rồi đúng không :( 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8756676232202032 	 Success: True 
+Message: cho mình hỏi trưởng btc giải cầu lông tân sinh viên và cách thức liên hệ ạ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9907118157054634 	 Success: True 
+Message: để biết thông tin về sự kiện cse job fair mình liên hệ ai nhỉ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9818113135563721 	 Success: True 
+Message: tôi cần liên hệ với bạn nào thế admin ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9875158359951055 	 Success: True 
+Message: có ai để mình hỏi thêm về hoạt động này không 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8859473317341726 	 Success: True 
+Message: mình muốn tìm hiểu mùa hè xanh thì gặp ai vậy bạn 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9448853355907704 	 Success: True 
+Message: cần hỏi thêm ai ta mình muốn xin ít thông tin  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9894943759903788 	 Success: True 
+Message: ừm ai vậy cho mình xin link fb được không ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9661187806418292 	 Success: True 
+Message: mình cần thông tin liện hệ để hỏi về việc tham gia hội thảo sắp tới ạ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.844420987674181 	 Success: True 
+Message: liên hệ sao  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9956969771772057 	 Success: True 
+Message: mình có thể liên hệ ai để hỏi về sce connection vậy? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9993590905334568 	 Success: True 
+Message: cho mình xin link facebook thầy nguyễn thanh tùng bí thư đoàn khoa 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8858931809714509 	 Success: True 
+Message: bot cho mình xin email ban tổ chức dynamic day với ạ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.879572200761878 	 Success: True 
+Message: cho mình xin cái email để liên lạc ban tổ chức 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9986832138398316 	 Success: True 
+Message: ban tổ chức sự kiện đêm hội trăng rằm ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8768979679280096 	 Success: True 
+Message: liên hệ ai vậy mình muốn đăng ký lắm 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9826843279553528 	 Success: True 
+Message: vậy mình liên hệ ai để tham gia hoạt động sắp tới này  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9803313798292141 	 Success: True 
+Message: thế số điện thoại ban tổ chức là gì 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9801780146400283 	 Success: True 
+Message: làm sao liên lạc ban tổ chức mùa hè xanh khoa máy tính  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9397493536350169 	 Success: True 
+Message: liên hệ ai ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9989369935247477 	 Success: True 
+Message: cho xin số điện thoại để mình liên lạc với người tổ chức được không bạn  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9956648917916356 	 Success: True 
+Message: cho mình xin thông tin liên hệ ban tổ chức với 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9979768124892163 	 Success: True 
+Message: cho mình xin mail thầy tùng đi? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8604014448650823 	 Success: True 
+Message: thông tin khoa máy tính 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9005831270466761 	 Success: True 
+Message: mình muốn trao đổi chi tiết hơn về hoạt động này á 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9445306710584794 	 Success: True 
+Message: muốn biết thêm về ngày hiến máu tình nguyện thì liên hệ với ai vậy 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9860201068199674 	 Success: True 
+Message: mình muốn hỏi về hội sinh viên 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8569502503999203 	 Success: True 
+Message: mình muốn tham gia xuân tình nguyện thì phải liên lạc với ban tổ chức như thế nào vậy 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9352498592223916 	 Success: True 
+Message: cho mình xin thông tin liên hệ của ban tổ chức đêm hội trăng rằm với? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.988286266654614 	 Success: True 
+Message: muốn đi hoạt động sắp tới thì hỏi ai ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8763373526413426 	 Success: True 
+Message: mình muốn tham gia cse connection thì phải liên hệ ai ạ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9763900428489134 	 Success: True 
+Message: mình muốn tham gia cse multimedia thì phải liên hệ với ai nhỉ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9721105183441764 	 Success: True 
+Message: cho mình xin email người tổ chức nha  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8806385288928921 	 Success: True 
+Message: mình muốn tham gia thì gọi cho ai bạn ha  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8851477022207533 	 Success: True 
+Message: muốn có đủ ngày công tác xã hội thì phải hối lộ ai? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8714917704646525 	 Success: True 
+Message: ủa vậy liên hệ như thế nào 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9277654554707059 	 Success: True 
+Message: làm sao để liên hệ ban tổ chức? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9962385939105457 	 Success: True 
+Message: cách liên lạc với ban tổ chức jobfair 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9874416378621481 	 Success: True 
+Message: cho mình xin thông tin liên hệ của đoàn khoa máy tính 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9956220328931245 	 Success: True 
+Message: do có quá nhiều thắc mắc muốn hỏi trực tiếp vậy  lên đâu để được tư vấn? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9095254711530356 	 Success: True 
+Message: để hỏi thêm thông tin với ban tổ chức thì mình cần liên hệ ai hả bạn? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9999492672734107 	 Success: True 
+Message: giải olympic của khoa máy tính bao gồm những môn nào vậy bạn? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8807794032148503 	 Success: True 
+Message: xuân tình nguyện mình liên hệ ai để đăng kí giờ ạ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9778111664472883 	 Success: True 
+Message: mình muốn biết nhiều hơn về hoạt động thì hỏi ai bây giờ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.955561651873752 	 Success: True 
+Message: mình muốn tham gia xuân tình nguyện 2020 thì liên hệ ai ạ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9494949930286921 	 Success: True 
+Message: liên hệ ai bây giờ bạn ơi 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9998492124843336 	 Success: True 
+Message: cách liên lạc để tham gia hoạt động sắp tới  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8666537007362054 	 Success: True 
+Message: mình muốn hỏi về chiến dịch xuân tình nguyện thì phải liên hệ ai vậy bạn? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9735771835662563 	 Success: True 
+Message: muốn đi mùa hè xanh thì hỏi ai vậy bot 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8836070162987724 	 Success: True 
+Message: cho mình xin thông tin liên hệ ban tổ chức job fair ạ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9994164885981834 	 Success: True 
+Message: mùa hè xanh sắp tới liên hệ ai để tham gia bạn ơi ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9702729091631416 	 Success: True 
+Message: liên hệ ai để đăng ký vậy  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9573651310088371 	 Success: True 
+Message: em cần trao đổi với ai vậy ạ ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.979306085362544 	 Success: True 
+Message: kms mình muốn thêm thông tin thì liên hệ ai ạ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9997091333985877 	 Success: True 
+Message: bạn có mail hay số điện thoại ban tổ chức không cho mình xin với nha  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9183612507994949 	 Success: True 
+Message: liên lạc ai để biết thêm về mùa hè xanh 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9963234346984166 	 Success: True 
+Message: mình xin số điện thoại ban tổ chức được không vì mình muốn trao đổi thêm thông tin  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9957309349818614 	 Success: True 
+Message: còn liên hệ ai để hỏi về game jam  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9642429840170833 	 Success: True 
+Message: mùa hè xanh là gì thế bạn 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.7500839565756017 	 Success: True 
+Message: giờ muốn biết thêm thì hỏi ai nhỉ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9935302478589504 	 Success: True 
+Message: cho mình xin thông tin liên hệ của ban tổ chức đêm hội trăng rằm với? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.988286266654614 	 Success: True 
+Message: làm sao liên hệ ban tổ chức hiến máu tình nguyện? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9591139538443857 	 Success: True 
+Message: bạn có thể cho mình thông tin liên hệ của xuân tình nguyện không ạ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8948557472210451 	 Success: True 
+Message: muốn biết thêm thông tin về cse jobfair thì hỏi ai hả bot 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9188631399923778 	 Success: True 
+Message: cho mình xin thông tin liên hệ của ban tổ chức đêm hội trăng rằm với? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.988286266654614 	 Success: True 
+Message: ban tổ chức có email liên lạc không? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9759770122766388 	 Success: True 
+Message: cho mình hỏi thông tin liên hệ của sự kiện cse job fair 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9000127426690208 	 Success: True 
+Message: cho mình xin thông tin liên hệ của thầy tùng được không 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9963015898651466 	 Success: True 
+Message: cho mình xin thông tin liên hệ của kms tour 2019 ạ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9304407776141332 	 Success: True 
+Message: thông tin về hội sinh viên 	 Intent_label: contact 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: mình muốn tham gia hậu duệ pascal phải liên hệ ai 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9399939022953588 	 Success: True 
+Message: liên hệ với ban tổ chức xuân tình nguyện bằng cách nào? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9967565086415436 	 Success: True 
+Message: liên hệ ban tổ chức như nào  	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9978230504434206 	 Success: True 
+Message: để biết thông tin về sự kiện cse job fair mình liên hệ ai nhỉ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9818113135563721 	 Success: True 
+Message: vậy nếu mình muốn tham gia thì liên hệ với ai bạn nhỉ ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9838168744471091 	 Success: True 
+Message: cho mình xin thông tin liên hệ của ban tổ chức đêm hội trăng rằm với? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.988286266654614 	 Success: True 
+Message: mình muốn đăng kí mùa hè xanh thì cần liên hệ với ai vậy ad 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9923644449539024 	 Success: True 
+Message: mình muốn tham gia thì cần trao đổi ai thế 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9458127060558895 	 Success: True 
+Message: làm sao liên lạc người quan lí hoạt động nhập liệu 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8972294106746429 	 Success: True 
+Message: liên hệ ban tổ chức hiến máu như nào ạ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9824579219081728 	 Success: True 
+Message: nếu mình muốn đăng ký mùa hè xanh thì mình liên hệ thế nào vậy bạn ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9803427405590074 	 Success: True 
+Message: vậy thì để biết thêm về xuân tình nguyện cần trao đổi với người nào vậy ạ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9029346200556059 	 Success: True 
+Message: mình muốn tham gia đêm hội trăng rằm thì liên hệ với ai ạ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9736643396751509 	 Success: True 
+Message: hỏi ai thì biết thêm thông tin mùa hè xanh 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9302644441144504 	 Success: True 
+Message: để tham gia kms thì mình hỏi ai vậy bạn 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8946844803795204 	 Success: True 
+Message: cho mình xin số điện thoại ban tổ chức jobfair 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9882345994317051 	 Success: True 
+Message: cho mình xin link facebook của bạn được không? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.879099625497163 	 Success: True 
+Message: muốn tham gia câu lạc bộ utec thì mình nên liên hệ ai vậy bạn? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9626756349637956 	 Success: True 
+Message: vậy thì mình liên hệ ai hả bạn :3 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9901009948213071 	 Success: True 
+Message: cho mình xin email người tổ chức đi 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9193455417087749 	 Success: True 
+Message: mình cần được ban tổ chức hội trại tư vấn thêm một số thông tin ạ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.8926479478490265 	 Success: True 
+Message: liên hệ ai để hỏi thêm về hội sách bk vậy 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9997101568925673 	 Success: True 
+Message: mình có thể liên hệ ban tổ chức bằng cách nào nhỉ? 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9911355365484572 	 Success: True 
+Message: mình muốn hỏi về câu lạc bộ 	 Intent_label: contact 	 Intent_predict: contact 	 Probability: 0.9124016700991286 	 Success: True 
+Message: bạn của mình thuộc khoa khác thì có được tham gia hội trại cse connection không? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9422219746489149 	 Success: True 
+Message: mình sinh viên năm 3 mà đang thiếu ngày công tác xã hội  vây không biết mình có được ưu tiên tham gia không? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.996133893587423 	 Success: True 
+Message: sinh viên từ năm hai trở lên và giảng viên có được tham gia bk dynamic day không bạn? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9318282476834976 	 Success: True 
+Message: cse connection thì chỉ cho khoa máy tính tham gia thôi sao? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8930272061235042 	 Success: True 
+Message: sinh viên khoa máy tính có được tham gia câu lạc bộ chúng ta cùng tiến không vậy? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8968181356884138 	 Success: True 
+Message: sự kiện gặp gỡ doanh nghiệp có giới hạn đối tượng tham gia không nhỉ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.932379312871788 	 Success: True 
+Message: những ai được tham dự sự kiện vậy anh chị ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.945411748367186 	 Success: True 
+Message: những khoa nào thì có thể tham gia chiến dịch mùa hè xanh ạ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9417047452017199 	 Success: True 
+Message: jobfair dành cho ai nhỉ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9255961856297994 	 Success: True 
+Message: mình muốn biết đối tượng được tham gia hội trại 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9204035982713661 	 Success: True 
+Message: sinh viên part-time và hệ vừa học vừa làm có tham gia xuân tình nguyện được không ạ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9019569634541109 	 Success: True 
+Message: chương trình này có giới hạn đối tượng tham gia không vậy ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9546486423806044 	 Success: True 
+Message: mình là nữ thì có được đi mùa hè xanh khoa máy tính không ạ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9082633445302457 	 Success: True 
+Message: sự kiện này cho sinh viên khoa khác đi được không admin ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.948756107800394 	 Success: True 
+Message: jobfair dành cho mọi sinh viên đúng không? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9244340939181901 	 Success: True 
+Message: sinh viên khoa máy tính tham gia mùa hè xanh của khoa khác có được không?? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9969850084259296 	 Success: True 
+Message: các chiến dịch như xuân tình nguyện  mùa hè xanh có giới hạn số lượng người tham gia không vậy? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8957023732597165 	 Success: True 
+Message: bạn mình khoa cơ khí thì có được đi cse connection không? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9126809279058866 	 Success: True 
+Message: cho mình hỏi đối tượng tham gia hiến máu là ai ạ ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9575781660864576 	 Success: True 
+Message: mình không thuộc khoa máy tính thì có được tham gia cse connection không ạ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9634942454150892 	 Success: True 
+Message: chiến dịch chủ nhật xanh có cho phép nữ tham gia không anh chị ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8939619294444541 	 Success: True 
+Message: mình tham gia xuân tình nguyện năm trước rồi vậy năm nay có được tham gia nữa không? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8852589009312993 	 Success: True 
+Message: hoạt động mùa hè xanh có dành cho sinh viên năm nhất không 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9031561528044252 	 Success: True 
+Message: sinh viên khoa khác có thể tham gia hậu duệ pascal 2019 được không ạ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9585696294299068 	 Success: True 
+Message: sinh viên khoa khác có được tham gia mùa hè xanh của khoa máy tính không bạn  	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9958243786174437 	 Success: True 
+Message: ai được tham gia chiến dịch vậy 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9119751055981278 	 Success: True 
+Message: hoạt động này có hạn chế số lượng đi không? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9037423569246839 	 Success: True 
+Message: đối tượng được tham gia chiến dịch mùa hè xanh là ai nhỉ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9450962267460205 	 Success: True 
+Message: sinh viên khoa khác có được tham gia hội trại chào người bạn mới của khoa máy tính không? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9976875067471379 	 Success: True 
+Message: mùa hè xanh cho ai tham gia  	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9174986341809304 	 Success: True 
+Message: hoạt động tặng sách là sinh viên toàn trường tham gia hay chỉ có sinh viên năm nhất? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9289901249549679 	 Success: True 
+Message: đối tượng được tham gia thi tìm hiểu biển đảo quê hương gồm những ai? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8958117657913226 	 Success: True 
+Message: chương trình này có để  khoa máy tính tham dự được không ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9497094190267854 	 Success: True 
+Message: mình ở trường khác được tham dự cuộc thi này không vậy  	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9015770654445606 	 Success: True 
+Message: những sinh viên nào được đi jobfair? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9591640792060294 	 Success: True 
+Message: hội trại chào người bạn mới chỉ có sinh viên năm nhất mới được tham gia à? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9957991111069291 	 Success: True 
+Message: olympic thể thao của khoa máy tính chỉ giành cho năm nhất hay còn cho các khóa trên nữa vậy bạn? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8949980411867275 	 Success: True 
+Message: mình ở khoa khác tham gia được không bạn 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.933936261894782 	 Success: True 
+Message: vậy hoạt động mùa hè xanh đối tượng tham gia gồm những ai vậy bạn ơi  	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9134372961771419 	 Success: True 
+Message: dành cho sinh viên phải không ạ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.884048510984406 	 Success: True 
+Message: mùa hè xanh chỉ cho trường mình thôi sao anh chị ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8893160612457663 	 Success: True 
+Message: bạn mình thuộc khoa điện vậy bạn đó có được tham gia xuân tình nguyện không? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9321159331389627 	 Success: True 
+Message: hội thảo này có hạn chế số lượng tham dự không bạn ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9079560818024679 	 Success: True 
+Message: cho tôi hỏi đối tượng tham gia hội trại là ai vậy ạ ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9569650207842973 	 Success: True 
+Message: chiến dịch xuân tình nguyện chỉ dành riêng cho khoa máy tính thui ạ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.884737414259575 	 Success: True 
+Message: ai cũng được tham gia jobfair nhỉ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9413949599357787 	 Success: True 
+Message: job fair 2019 ai mới có thể tham dự ạ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8997452397173138 	 Success: True 
+Message: khoa khác có được tham gia hiến máu tình nguyện không ạ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9443620316476369 	 Success: True 
+Message: mình ở khoa khác được đi hội trại không ạ ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.926174677825328 	 Success: True 
+Message: khoa khác có được tham dự cse connection không ạ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9211241952662276 	 Success: True 
+Message: mùa hè xanh mình đi theo khoa hay sao ad 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8884511497377888 	 Success: True 
+Message: jobfair dành cho khoa nào nhỉ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9018683085625572 	 Success: True 
+Message: sự kiện ngày hội việc làm jobfair sắp tới cho những ai tham gia vậy 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9072644054703233 	 Success: True 
+Message: mùa hè xanh có phải có sức khỏe tốt mới được tham gia phải không? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9066878848971957 	 Success: True 
+Message: cho em hỏi những người được đi sự kiện này là ai vậy ạ ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8950783562179319 	 Success: True 
+Message: ai có thể tham gia neutron marathon 2019 ạ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9295225614873963 	 Success: True 
+Message: cho em hỏi những người được đi đêm hội trăng rằm là ai vậy ạ ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8945589319495555 	 Success: True 
+Message: vậy cse là làm gì trong đó 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8833594217536439 	 Success: True 
+Message:  cho mình hỏi sự kiện ngày hội việc làm jobfair sắp tới cho những ai tham gia vậy 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9030641664905671 	 Success: True 
+Message: vậy mình không thuộc câu lạc bộ có tham gia được không 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8899986518825277 	 Success: True 
+Message: điều kiện để tham gia mùa hè xanh ạ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8052147379421403 	 Success: True 
+Message: hiến máu chỉ cho khoa máy tính tham gia hay sao vậy? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9208663783020389 	 Success: True 
+Message: sinh viên năm 1 có được tham gia ngày hội job fair không vậy? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9179087282783956 	 Success: True 
+Message: chiến dịch có hạn chế số lượng đi không vậy ạ  	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8971184252169914 	 Success: True 
+Message: sinh viên khoa máy tính có được tham gia mùa hè xanh của khoa cơ khí không bạn? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9953501555087956 	 Success: True 
+Message: mình không thuộc khoa máy tính nhưng muốn tham gia hội trại thì phải làm sao đây bạn ơi :((( 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8599453300412395 	 Success: True 
+Message: hội trại chỉ dành cho khoa máy tính thôi hả admin  	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.911798183894211 	 Success: True 
+Message: mùa hè xanh sắp tới khoa hóa tham gia được không bạn ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.973031251967718 	 Success: True 
+Message: cựu sinh viên có được tham gia hội trại cse connection không nhỉ :( 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9020858977231249 	 Success: True 
+Message: đối tượng tham gia đêm hội trăng rằm là những ai? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8849717344897664 	 Success: True 
+Message: sinh viên khoa điện có tham gia kms tour được không bot? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9497914253797707 	 Success: True 
+Message: em ở khoa hóa thì có được cho đi chiến dịch này không ạ ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9388671240177273 	 Success: True 
+Message: xuân tình nguyện sắp tới mọi người đều được tham gia đúng không bạn ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8680700980252019 	 Success: True 
+Message: có yêu cầu gì cho người tham gia hiến máu không 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9048331810997798 	 Success: True 
+Message: mình bị thiếu máu thì có được hiến máu không ad 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.883163842817365 	 Success: True 
+Message: sinh viên năm nhất có tham gia game jam 2019 được không bot? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8898640006782749 	 Success: True 
+Message: cho mình hỏi sự kiện ngày hội việc làm jobfair sắp tới cho những ai tham gia vậy 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9030641664905671 	 Success: True 
+Message: khoa khác có được tham gia chương trình hiến máu của khoa máy tính không vậy ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9531847998453404 	 Success: True 
+Message: sinh viên trường khác muốn tham gia hoạt động hiến máu trường bách khoa mình có được không? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9512960469086201 	 Success: True 
+Message: xuân tình nguyện muốn tham gia thì có chia theo sinh viên từng khoa không? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9712756613455384 	 Success: True 
+Message: sinh viên khoa khác được tham gia mùa hè xanh sắp tới không ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9957564797187815 	 Success: True 
+Message: khoa nào cũng được hả bot 	 Intent_label: joiner 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: hoạt động sắp tới đối tượng tham gia là ai ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8697229811943785 	 Success: True 
+Message: cho tôi hỏi người được tham gia mùa hè xanh là những ai vậy 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8874637237522613 	 Success: True 
+Message: hội trại này cho phép sv trường khác tham gia được không bạn 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9108266956833586 	 Success: True 
+Message: chiến dịch mùa hè xanh nếu có khoa khác tham gia cùng  vậy có ưu tiên khoa máy tính không? hay ai đủ năng lực thì được ưu tiên tham gia? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9976845945719224 	 Success: True 
+Message: sinh viên năm nhất tham gia jobfair có được không? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9777854287341673 	 Success: True 
+Message: ai được phép tham dự hội thảo vậy ạ ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9127124797460512 	 Success: True 
+Message: đi mùa hè xanh có cho nữ đi không 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9104706675451434 	 Success: True 
+Message: chương trình này có hạn chế số lượng tham gia hay không? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.91936306484841 	 Success: True 
+Message: ai tham gia được chiến dịch này nhỉ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8879396095641324 	 Success: True 
+Message: sinh viên khoa nào được tham dự jobfair? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9982999652449835 	 Success: True 
+Message: sinh viên khoa khác có thể tham gia xây dựng và phát triển cse assistant không vậy (mình khoa máy tính nha hihiii)? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9425756790436249 	 Success: True 
+Message: đơn đăng kí tham gia hiến máu tình nguyện có yêu cầu về giấy tờ kèm theo về sức khỏe không bạn? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8973799246397286 	 Success: True 
+Message: em nghe nói chỉ sinh viên năm nhất mới tham gia dynamic day được phải không ạ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8829625810757432 	 Success: True 
+Message: chỉ khoa máy tính mới được đi hội trại thôi hả bạn 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8971573681033235 	 Success: True 
+Message: mình ở khoa khác muốn tham gia được không 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9449028789875035 	 Success: True 
+Message: sinh viên năm nhất tham gia xuân tình nguyện có được không vậy bạn nhỉ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8845929957906334 	 Success: True 
+Message: cse job fair 2019 giành cho những đối tượng nào vậy? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.892152201718831 	 Success: True 
+Message: chiến dịch này có để sinh viên khoa khác tham gia được không anh chị ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9866841919062564 	 Success: True 
+Message: năm 2 rồi còn tham gia cse connection được không nhỉ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9145543584484063 	 Success: True 
+Message: cse jobfair là khoa nào cũng được tham gia hả? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9628556820851095 	 Success: True 
+Message: cuộc thi hậu duệ pascal có cho phép sinh viên các năm 2 3  4 tham gia không ạ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9820701073107996 	 Success: True 
+Message: mình khoa xây dựng  nhưng mà thích đi hội trại được ko ad ơi 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.871197119121814 	 Success: True 
+Message: mình sinh viên năm nhất đi jobfair được đúng không? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9657536221793752 	 Success: True 
+Message: hội trại chào người bạn mới chỉ cho trường bách khoa thôi hả ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8922418098232008 	 Success: True 
+Message: mà hội trại này cho những đối tượng nào tham gia vậy? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9423948228317546 	 Success: True 
+Message: còn hoạt động hiến máu nhân đạo thì đối tượng tham gia là những ai nhỉ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8993102075380781 	 Success: True 
+Message: bình thường mình mùa hè xanh là ai cũng được đi hay sao ad 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8857566851877645 	 Success: True 
+Message: cho mình hỏi hoạt động này đối tượng tham gia gồm những ai bạn ơi ? :3 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9267217783377444 	 Success: True 
+Message: sinh viên khoa khác có được tham gia cse cup 2019 không ạ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9882029697971124 	 Success: True 
+Message: sắp tới mùa hè xanh cho ai tham gia ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9056954135332043 	 Success: True 
+Message: vậy hội trại có cho nữ khoa khác tham gia không ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9727425042369822 	 Success: True 
+Message: sinh viên khoa khác có được tham gia mùa hè xanh của khoa máy tính không bạn nhỉ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9938463865370882 	 Success: True 
+Message: mình là nữ thì có được đi mùa hè xanh khoa máy tính 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8694742465586616 	 Success: True 
+Message: vậy đối tượng tham gia gồm những ai vậy bạn nhỉ :d ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.964655976120255 	 Success: True 
+Message: đêm hội trăng rằm ai có thể tham gia ạ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9368865517477398 	 Success: True 
+Message: những người nào được tham gia hoạt động vậy ad 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8870568316440262 	 Success: True 
+Message: chiến dịch mùa hè xanh có hạn chế đối tượng tham dự không ạ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8996640448796315 	 Success: True 
+Message: mọi sinh viên đều được tham gia mùa hè xanh hay sao? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8964851323709336 	 Success: True 
+Message: tôi thuộc khoa khác có được cho đi mùa hè xanh không ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9249805325848262 	 Success: True 
+Message: khoa ngoài vẫn được tham gia hội trại chứ hả bạn 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9729702856441069 	 Success: True 
+Message: sinh viên khoa khác có thể tham gia kms tour được không ạ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9924157623665232 	 Success: True 
+Message: hội trại có giới hạn đối tượng tham gia không vậy ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9385470026791639 	 Success: True 
+Message: em ở khoa hóa thì có được cho đi mùa hè xanh không ạ ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9430593541528309 	 Success: True 
+Message: nữ được tham gia không bạn 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9230473638817253 	 Success: True 
+Message: hoạt động hiến máu tình nguyện có giới hạn đối tượng tham gia không ạ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8956210713947754 	 Success: True 
+Message: đối tượng có thể tham gia kms tour gồm những ai vậy bot 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9235145959916392 	 Success: True 
+Message: mấy hoạt động học thuật của khoa mình có nhất thiết phải biết code từ đầu ko ạ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9104949202163354 	 Success: True 
+Message: hội trại cho phép  trường ngoài tham gia không anh chị ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.944272709816487 	 Success: True 
+Message: sinh viên từ năm 2 trở lên có được tham gia hội trại cse connection được không ạ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9556275916361653 	 Success: True 
+Message: những ai có thể tham gia job fair 2019 ạ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8790380091497954 	 Success: True 
+Message: hoạt động sắp tới cho ai tham gia vậy ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8821175540273187 	 Success: True 
+Message: cho mình hỏi đối tượng tham gia hoạt động này là ai ạ ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9111088648660897 	 Success: True 
+Message: những ai được tham gia jobfair nhỉ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9753642964821694 	 Success: True 
+Message: cho mình hỏi đối tượng tham gia hiến máu là gồm những ai vậy 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.949128207895788 	 Success: True 
+Message: mình không biết đối tượng củ thể mà mùa hè xanh muốn hướng tới là ai  có phải những người thiếu điểm ctxh hay là những người có đam mê :( có ưu tiên nào không ạ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9197925723290592 	 Success: True 
+Message: tham gia xuân tình nguyện gồm những thành phần nào? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8864612581316033 	 Success: True 
+Message: ai được tham gia chiến dịch mùa hè xanh vậy 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8742797903720256 	 Success: True 
+Message: sự kiện này chỉ dành cho sv khoa máy tính thôi hả ad ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9272950700202196 	 Success: True 
+Message: khu vườn yêu thương cho ai tham gia vậy 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8760749325285057 	 Success: True 
+Message: hội trại mình khoa hóa đi được ko ad 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9110867171268613 	 Success: True 
+Message: sắp tới hoạt động này cho ai tham gia nhỉ ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9467156013257569 	 Success: True 
+Message: khoa máy tính có được tham gia tuần lễ khoa học của trường không? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9750775429533715 	 Success: True 
+Message: nếu em năm 2 thì tham gia hội trại được không và nếu được thì như thế nào ạ 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8933781180033578 	 Success: True 
+Message: mình khoa máy tính đi jobfair được nhỉ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9117131376815631 	 Success: True 
+Message: khoa khác có thể tham gia chiến dịch mùa hè xanh của khoa kỹ thuật hóa học được không 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.985991218169497 	 Success: True 
+Message: chiến dịch mùa hè xanh chỉ dành cho  khoa máy tính thôi sao ad ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9584981754604303 	 Success: True 
+Message: con gái được tham gia mùa hè xanh không bạn 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9156401896844553 	 Success: True 
+Message: sức khỏe mình không tốt lắm  mà nghe nói đi mùa hè xanh toàn làm việc nặng  không biết có yêu cầu đặt biệt gì về sức khỏe không? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8855198746753025 	 Success: True 
+Message: học khoa cơ khí thì có thể tham gia mùa hè xanh chung với khoa máy tính không ạ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9506869130699771 	 Success: True 
+Message: bạn mình khoa xây dựng muốn đi mùa hè xanh khoa máy tính thì có được không ạ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.8813381822406489 	 Success: True 
+Message: em ở khoa hóa thì có được cho đi mùa hè xanh của khoa máy tính không ạ ? 	 Intent_label: joiner 	 Intent_predict: joiner 	 Probability: 0.9864227050418009 	 Success: True 
+Message: đăng kí câu lạc bộ ai của khoa có cần phỏng vấn không ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9050402255654485 	 Success: True 
+Message: ủa làm sao để đăng ký vậy ta? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9918968336082254 	 Success: True 
+Message: đăng kí đêm hội trăng rằm thì có cần phỏng vấn không 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9488574280928415 	 Success: True 
+Message: đăng kí làm leader của bkfc như thế nào 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9932464105563856 	 Success: True 
+Message: đi mùa hè xanh thì đăng ký ở đâu 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9643464301856602 	 Success: True 
+Message: mình muốn tham dự thì đăng ký ra sao ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9964843390070715 	 Success: True 
+Message: làm sao để đăng ký vậy ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9970560846537764 	 Success: True 
+Message: mình muốn đăng kí vào các câu lạc bộ của khoa thì phải làm sao ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9445278928129877 	 Success: True 
+Message: làm sao để đăng ký tham gia mùa hè xanh vậy 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9974137667404822 	 Success: True 
+Message: đăng ký ra sao vậy bạn ơi ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9500887860933585 	 Success: True 
+Message: mình muốn tham gia thì làm như nào ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9392397905296801 	 Success: True 
+Message: muốn tham dự quá mà chưa biết đăng ký như thế nào ta  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9905520236732424 	 Success: True 
+Message: kms tour muốn tham gia thì đăng ký sao vậy  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9982770807208446 	 Success: True 
+Message: đăng ký mùa hè xanh có phỏng vấn không vậy? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9628616479344553 	 Success: True 
+Message: đăng ký như nào ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9976442467738554 	 Success: True 
+Message: đi hội trại chào người bạn mới thì đăng ký như thế nào vậy ad 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9519998316142826 	 Success: True 
+Message: ý em là đăng ký hoạt động này như thế nào ấy 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9284899710181073 	 Success: True 
+Message: mình muốn tham gia công tác xã hội  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9461493839146533 	 Success: True 
+Message: ad cho em xin link đăng ký xuân tình nguyện được không ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9167465867775996 	 Success: True 
+Message: làm sao để đăng ký làm cộng tác viên cse assistant 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9949988361929892 	 Success: True 
+Message: muốn đăng kí xuân tình nguyện phải làm gì 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9963030179072885 	 Success: True 
+Message: tham gia hội trại chào người bạn mới thì tớ cần đăng ký như thế nào nhỉ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9380944700348537 	 Success: True 
+Message: đăng kí vào câu lạc bộ an toàn thông tin thì có cần phỏng vấn hay thi tuyển gì không bạn? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.935269263895786 	 Success: True 
+Message: mình muốn hỏi về cách đăng kí tham gia jobfair 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9840463253497045 	 Success: True 
+Message: tui thích tham gia các hoạt động về kỹ năng mềm 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9174204665121641 	 Success: True 
+Message: đăng kí tham gia câu lạc bộ trí tuệ nhân tạo của khoa có cần thi tuyển gì không bạn? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9351215526109848 	 Success: True 
+Message: cuộc thi này mình đăng ký như thế nào vậy  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9790954663520274 	 Success: True 
+Message: làm sao mình tham gia hội đoàn của khoa máy tính nhỉ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9142365300691109 	 Success: True 
+Message: đăng ký hoạt động sắp tới như nào  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9885674724575775 	 Success: True 
+Message: mình muốn đăng kí tham gia chatbox 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9999979766150809 	 Success: True 
+Message: bạn làm ơn nhắn cho tớ đường link đăng ký được không ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9195001502993793 	 Success: True 
+Message: hội trại chào người bạn mới này mình đăng ký ở đâu vậy bạn 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9106310732061788 	 Success: True 
+Message: vậy mình muốn đăng ký tham gia thì làm thế nào 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9988372465080912 	 Success: True 
+Message: mình nghe nói hết hạn rồi thì còn đăng ký được không 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9269985809840193 	 Success: True 
+Message: tham gia code war thì làm sao nhỉ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9397916203512915 	 Success: True 
+Message: cho mình hỏi làm sao đăng ký tham gia khu vường yêu thương vậy 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.984465600891042 	 Success: True 
+Message: tham gia thì đăng ký làm sao thế  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9988437233826871 	 Success: True 
+Message: mình muốn tham gia lớp học phụ đạo của chúng ta cùng tiến thì phải đăng ký làm sao 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9694464169562408 	 Success: True 
+Message: đăng kí xuân tình nguyện có cần phỏng vấn không 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9646495488712465 	 Success: True 
+Message: tôi muốn tham gia mùa hè xanh thì đăng ký như thế nào 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9871400377170473 	 Success: True 
+Message: cho mình xin link đăng ký với bạn ơi. 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9852088908626551 	 Success: True 
+Message: cậu làm ơn cho mình xin đường link đăng ký được không vậy  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.954090156577614 	 Success: True 
+Message: mình cần đăng ký đêm hội trăng rằm ở đường link nào vậy 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9430453911078271 	 Success: True 
+Message: giờ muốn đăng kí vào cse jobfair thì làm thế nào nhỉ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9934918971785293 	 Success: True 
+Message: xin link đâng ký với bạn ơi  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9096983654138415 	 Success: True 
+Message: cho mình xin link đăng ký cộng tác viên với? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9476137896382201 	 Success: True 
+Message: mình muốn đi trại cse thì đăng ký thế nào :) 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9980386429688114 	 Success: True 
+Message: cho mình xin form đăng ký xuân tình nguyện sắp tới  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9930298889382627 	 Success: True 
+Message: mình muốn tăng ngày công tác xã hội 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9091059549711125 	 Success: True 
+Message: bạn cho mình hỏi về cách thức đăng kí cho hoạt động hiến máu 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9269212696872534 	 Success: True 
+Message: đăng kí đêm hội trăng rằm như thế nào 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9834357564782644 	 Success: True 
+Message: đăng ký tham gia ở đâu vậy bạn? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.999551278342378 	 Success: True 
+Message: mình muốn đăng ký đi chào người bạn mới  thì làm như thế nào ^^ ?  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9831704681772845 	 Success: True 
+Message: muốn tham gia job fair thì đăng kí với ai ạ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9952306746609857 	 Success: True 
+Message: đăng kí xuân tình nguyện ở đâu ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9931723881288905 	 Success: True 
+Message: tham gia cse assistant như thế nào? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9411958482049473 	 Success: True 
+Message: ok vậy mình đăng ký tham gia thì làm như nào vậy bạn nhỉ :3 ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9866116034638543 	 Success: True 
+Message: tham gia hiến máu tình nguyện thì đăng kí như thế nào ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9904942311781708 	 Success: True 
+Message: link đăng ký cộng tác viên của chat bot là gì 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9778344055525696 	 Success: True 
+Message: hoạt động này có link đăng ký không bạn ?  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9439458618967471 	 Success: True 
+Message: hot ơi muốn đăng ký xuân tình nguyện sắp tới thì làm sao  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9754564796569285 	 Success: True 
+Message: cái job fair đăng ký như thế nào vậy? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.960212860853335 	 Success: True 
+Message: tham gia chương trình hành trình chí vĩ - khởi nghiệp kiến quốc thì đăng kí như thế nào ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9112693878394447 	 Success: True 
+Message: mình muốn tham gia hội trại sắp tới 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9411406901812508 	 Success: True 
+Message: mình có thể kiếm điểm rèn luyện ở đâu? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.8936703623297342 	 Success: True 
+Message: vậy thì nếu muốn đăng ký tham gia thì làm sao bạn 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9899316303652493 	 Success: True 
+Message: công tác xã hội đăng kí ở đâu 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9919523515067221 	 Success: True 
+Message: muốn đăng kí tham gia câu lạc bộ gia sư có cần phỏng vấn không bạn 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9939280166010334 	 Success: True 
+Message: việc đăng kí hội thảo kms là qua mail hay biểu mẫu google vậy bạn? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9051727618852815 	 Success: True 
+Message: đăng ký làm sao thế  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.995002712011486 	 Success: True 
+Message: cho mình hỏi hội trại chào người bạn mới sắp tới muốn tham gia thì đăng ký như thế nào vậy 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9291038045525434 	 Success: True 
+Message: tôi muốn đi thi con đường chân lý thì đăng ký như thế nào ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9304236661924054 	 Success: True 
+Message: sắp tới hội trại chào người bạn mới mình muốn tham gia thì còn đăng ký được không bạn? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9449843189634504 	 Success: True 
+Message: tham gia ngày hội job fair như thế nào nhỉ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9022698233187246 	 Success: True 
+Message: form đăng kí xuân tình nguyện như thế nào 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9929989975662612 	 Success: True 
+Message: có thông tin đăng ký cse connection của năm sau chưa ạ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9510954960476751 	 Success: True 
+Message: admin làm ơn cho mình xin đường link đăng ký tham gia được không ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9964250447503001 	 Success: True 
+Message: khi đăng kí job fair thì mình cần chuẩn bị những thông tin gì ạ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.909798813610104 	 Success: True 
+Message: mùa hè xanh này mình đăng ký tham gia làm sao  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9790732572308436 	 Success: True 
+Message: mình muốn đăng ký online 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9974323121657671 	 Success: True 
+Message: tôi muốn đăng ký tham gia jobfair thì làm như thế nào ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9986160711293107 	 Success: True 
+Message: bot chỉ mình đăng ký mùa hè xanh với 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9847486359499993 	 Success: True 
+Message: làm sao đăng kí hội trại chào người bạn mới? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9801844305796855 	 Success: True 
+Message: tham gia kms tour 2019 thì đăng kí như thể nào ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9986530022161807 	 Success: True 
+Message: muốn đăng ký tham gia khu vường yêu thương thì đăng ký ở đâu bạn, đăng ký online được không? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9953782070892321 	 Success: True 
+Message: có đăng ký online không bot 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9955676857882634 	 Success: True 
+Message: mình muốn đăng kí mùa hè xanh cần làm gì nhỉ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9747242630979468 	 Success: True 
+Message: đăng ký mùa hè xanh sao vậy bot 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9491087983712985 	 Success: True 
+Message: đăng ký tham gia chiến dịch mùa hè sao vậy 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9863362147230808 	 Success: True 
+Message: đăng ký xuân tình nguyện thế nào vậy 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9936876806563218 	 Success: True 
+Message: tôi muốn tham gia tiếp sức mùa thi thì đăng ký sao admin? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9882279621209275 	 Success: True 
+Message: đăng kí hậu duệ pascal 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9507045117873717 	 Success: True 
+Message: tham gia mùa hè xanh thì đăng kí như thể nào ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9945246571979647 	 Success: True 
+Message: bạn cho mình xin form đăng kí tham gia hiến máu tình nguyện không? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.974487271755091 	 Success: True 
+Message: xuân tình nguyện tham gia như nào? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9092898515246048 	 Success: True 
+Message: chỉ mình cách đăng kí xuân tình nguyện với  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9285134853149329 	 Success: True 
+Message: đăng ký tham gia ở đâu ta 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9996305971397432 	 Success: True 
+Message: hoạt động này mình đăng ký ở đâu vậy ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9764450313014014 	 Success: True 
+Message: khi tham gia mùa hè xanh có cần tham gia phỏng vấn không vậy bạn 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9162676384735008 	 Success: True 
+Message: mình muốn tham gia ai club sắp tới  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9283063816830108 	 Success: True 
+Message: hạn chót đăng kí hoạt động xuân tình nguyện là khi nào vậy ad? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9075346853376259 	 Success: True 
+Message: đăng kí tham gia tiếp sức mùa thi ở đâu ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9979185624438149 	 Success: True 
+Message: hậu duệ pascal này mình đăng ký tham gia làm sao vậy ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9947460574527935 	 Success: True 
+Message: mình đăng kí tham gia sự kiện cse job fair bằng cách nào 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9952896690377763 	 Success: True 
+Message: đăng ký hoạt động sắp tới thì như nào  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9759239840026881 	 Success: True 
+Message: tham dự cuộc thi thì tớ cần đăng ký ra sao bạn ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9192348022753903 	 Success: True 
+Message: đăng kí tham gia mùa hè xanh có phải phỏng vấn không ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.976328970514586 	 Success: True 
+Message: cho mình thông tin về đường link đăng ký tham dự nha. 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9269072321646409 	 Success: True 
+Message: bạn có thể gửi cho tôi link đăng ký được không ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9597816879121155 	 Success: True 
+Message: dạ vậy em đăng ký job fair ở đâu ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9491375229041811 	 Success: True 
+Message: muốn tham dự thì đăng ký làm sao vậy bạn ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9984444681212647 	 Success: True 
+Message: tham gia job fair 2019 thì đăng kí như thế nào ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9987382693427335 	 Success: True 
+Message: đăng ký làm sao vậy ta ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9953449562468731 	 Success: True 
+Message: xin cái link đăng ký nào bạn  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9451125561831322 	 Success: True 
+Message: bot ơi muốn tham gia mùa hè xanh thì đăng ký sao vậy 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9953130450389543 	 Success: True 
+Message: nếu muốn đăng kí tham gia câu lạc bộ âm nhạc thì phải làm sao vậy bạn? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.945964690202444 	 Success: True 
+Message: muốn đăng ký hoạt động này lắm đấy mà chưa biết làm sao  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9405929480645709 	 Success: True 
+Message: cho mình xin link form đăng kí tham gia chiến dịch mùa hè xanh với bạn ơi 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9874949588835013 	 Success: True 
+Message: sự kiện tiếp sức mùa thi này mình đăng ký tham gia như thế nào vậy ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.962415336517864 	 Success: True 
+Message: hội trại khoa đăng kí tham gia ở đâu ạ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9850008684601103 	 Success: True 
+Message: mình muốn dự hội trại sắp tới 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9413418169791071 	 Success: True 
+Message: thích hoạt động này ghê nhưng chưa biết đăng ký sao 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9355205750556858 	 Success: True 
+Message: theo link đăng ký thì càng tốt á bạn 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9770766752821087 	 Success: True 
+Message: theo link đăng ký thì càng tốt nha 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.987765642541792 	 Success: True 
+Message: form đăng kí đêm hội trăng rằm có thể tìm được ở đâu 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9601415882940938 	 Success: True 
+Message: cái hội trại khi nãy  giờ mình muốn đăng ký thì làm sao? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9108704041242691 	 Success: True 
+Message: vậy mình có thể dăng ký như thế nào ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.8979403033000669 	 Success: True 
+Message: tham gia jobfair có cần đăng kí trước không ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9964670434820653 	 Success: True 
+Message: mình muốn tham gia đăng kí mùa hè xanh thì phải làm sao ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9978496851378189 	 Success: True 
+Message: admin có thể gửi cho mình link đăng ký được không ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.964621426575174 	 Success: True 
+Message: làm sao để đăng ký mùa hè xanh? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9950342780553003 	 Success: True 
+Message: cho mình hỏi cách đăng kí tham gia mùa hè xanh 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.97675380804919 	 Success: True 
+Message: mình muốn hiến máu nhân đạo 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9010656381052533 	 Success: True 
+Message: cho xin cái link đăng ký mùa hè xanh sắp tới đi bạn 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.8952742493859306 	 Success: True 
+Message: hôm bữa khai giảng em không đăng kí tham gia hội trại giờ em muốn đăng kí thì đăng kí ở đâu vậy? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.994093759253832 	 Success: True 
+Message: mình muốn tham gia mùa hè xanh 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9334960574411385 	 Success: True 
+Message: mình muốn tham gia hội trại 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9467469416079684 	 Success: True 
+Message: mình muốn đăng ký tham gia thì làm như thế nào vậy bạn ? <3  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.99192954702986 	 Success: True 
+Message: đăng kí tham gia kms tour 2019 thì phải làm sao ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9998571658215375 	 Success: True 
+Message: tôi muốn đi xuân tình nguyện thì đăng ký ở đâu vậy bạn? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9483987121950387 	 Success: True 
+Message: hội trại sắp tới mình muốn tham gia thì làm thế nào vậy bạn 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.8943539548336926 	 Success: True 
+Message: cho mình hỏi về đăng ký môn học với? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9157821261783329 	 Success: True 
+Message: sự kiện này mình đăng ký tham gia ở đâu vậy ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9982652237566763 	 Success: True 
+Message: mình muốn tham dự mà chưa biết đăng ký sao  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9999738069964096 	 Success: True 
+Message: mình muốn tham gia hội trại quá đi 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.8942326157342153 	 Success: True 
+Message: vậy à :3 vậy thì mình muốn đăng ký thì làm như nào vậy bạn ? :d  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9483838434265558 	 Success: True 
+Message: bạn ơi đăng ký theo link nào vậy bạn ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9153310227704718 	 Success: True 
+Message: form đăng kí mùa hè xanh lấy ở đâu 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9391285905028287 	 Success: True 
+Message: vậy đăng ký như thế nào vậy bạn ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9501437594281454 	 Success: True 
+Message: còn hoạt động xuân tình nguyện nếu muốn tham gia thì phải đăng kí như thế nào vậy ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9611790339882934 	 Success: True 
+Message: đi xuân tình nguyện sắp tới thì đăng ký làm sao  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9788826292703037 	 Success: True 
+Message: cho mình xin thông tin đăng ký ctv cse assistant được không? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9265553839175781 	 Success: True 
+Message: phải làm sao để được đi mùa hè xanh 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9109207312509364 	 Success: True 
+Message: làm sao để tham gia hoạt động công tác xã hội ở khoa máy tính 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.910709688804048 	 Success: True 
+Message: mình muốn tham gia mùa hè xanh 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9334960574411385 	 Success: True 
+Message: đi xuân tình nguyện thì làm sao mới đăng kí được 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9867795120318659 	 Success: True 
+Message: muốn tham gia mùa hè xanh thì thế nào này 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.8946675545391635 	 Success: True 
+Message: làm sao để đăng ký làm cộng tác viên của cse assistant 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9942112398503555 	 Success: True 
+Message: mình muốn tham gia clb bkmc với gia sư đại học bách khoa 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.8977687072651741 	 Success: True 
+Message: ok mình muốn tham gia hội trại sắp tới 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9058391672916098 	 Success: True 
+Message: mình muốn tăng ngày công tác xã hội cơ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.90340929915429 	 Success: True 
+Message: có hoạt động nào hiện đang mở đăng ký tham gia không vậy bot 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9592559172263901 	 Success: True 
+Message: này bạn ơi mình xin link đăng ký với nha  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9518444085089812 	 Success: True 
+Message: mình muốn tham gia ai club 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9084525928833898 	 Success: True 
+Message: các bước để đăng ký dự sự kiện gặp gỡ doanh nghiệp bot biết không? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9188961272665574 	 Success: True 
+Message: tham gia cse cup thì đăng kí như thế nào ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9999207607468112 	 Success: True 
+Message: nếu muốn đăng ký tham gia hội trại thì làm sao hả ad? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9921293060957866 	 Success: True 
+Message: làm thế nào để đăng ký công tác viên job fair? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9872937581101144 	 Success: True 
+Message: mình muốn tham gia chiến dịch xuân tình nguyện thì đăng ký ở đâu vậy ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9769782414678951 	 Success: True 
+Message: tham gia mùa hè xanh có cần viết đơn đăng kí không hay có sắn link để đăng kí 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9813602722757196 	 Success: True 
+Message: tham gia hiến máu nhân đạo có cần đăng kí trước không vậy ạ? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9709681545451796 	 Success: True 
+Message: tham gia neutron marathon 2019 thì đăng kí như thế nào ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9987985761038887 	 Success: True 
+Message: có link đăng ký job fair chưa nhỉ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.996088398341132 	 Success: True 
+Message: dạ ad cho em xin cách đăng ký cse connection với ạ 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9109951374648156 	 Success: True 
+Message: làm sao để đăng ký mùa hè xanh sắp tới  	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9862657068543977 	 Success: True 
+Message: làm sao để đăng kí mùa hè xanh? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9950653986060057 	 Success: True 
+Message: cho mình hỏi cách đăng ký công tác xã hội? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9460028911335547 	 Success: True 
+Message: đăng ký xuân tình nguyện có cần phỏng vấn không? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9673548492041864 	 Success: True 
+Message: đăng ký như thế nào 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.990022773337165 	 Success: True 
+Message: làm sao để đăng ký thi neuron marathon á bot 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9957478441257077 	 Success: True 
+Message: tham gia cse connection thì có thể đăng kí trực tiếp ở đâu vậy bạn? 	 Intent_label: register 	 Intent_predict: register 	 Probability: 0.9888113916939212 	 Success: True 
+Message: đi hoạt động này thì có gì làm ta 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9769900647416249 	 Success: True 
+Message: nếu đi xuân tình nguyện thì công việc mình làm là phát cháo đúng không ad? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9847893648878109 	 Success: True 
+Message: cộng tác viên cho hội thảo kỹ năng chuyên nghiệp thì mình làm những gì 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8414506372857874 	 Success: True 
+Message: đi xuân tình nguyện thì cụ thể công việc là làm gì vậy bạn ơi ?  	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9679267481289375 	 Success: True 
+Message: có những việc gì cần làm trong hoạt động này vậy bạn nhỉ ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9741160080521223 	 Success: True 
+Message: tham gia bk ec là mình phải làm những công việc gì vậy? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9605407032253196 	 Success: True 
+Message: chiến dịch xuân tình nguyện năm nay mình sẽ được đi đâu ạ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.835320995914265 	 Success: True 
+Message: kms tour 2019 gồm những hoạt động gì ạ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8701083290899343 	 Success: True 
+Message: xuân tình nguyện gồm những công việc gì vậy 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9312855720676702 	 Success: True 
+Message: tham gia mùa hè xanh là đi làm đường đồ hay sao?? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.928895740254692 	 Success: True 
+Message: đi mùa hè xanh là đi đến đâu làm những việc gì vậy bạn? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9912369548092509 	 Success: True 
+Message: không biết mùa hè xanh mình làm gì á ad? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8337320051497867 	 Success: True 
+Message: tham gia xuân tình nguyên sẽ làm gì á ta 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9463534657930687 	 Success: True 
+Message: khi tham gia mùa hè xanh thì mình sẽ làm những công việc gì ạ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9828243059016105 	 Success: True 
+Message: đi mùa hè xanh thì mình phải làm gì vậy 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9561448184306754 	 Success: True 
+Message: dạ thí dụ mà mình hông quen ai thì vô hội trại chào người bạn mới có ai chơi chung với mình hông ạ  tính mình hơi rụt rè á :(( 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8475638116551165 	 Success: True 
+Message: trong hội thảo kms mình làm gì dạ ad 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9035378802404543 	 Success: True 
+Message: bạn cho mình hỏi về những hoạt động dành cho sinh viên trong mùa hè xanh nha 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8371556622359023 	 Success: True 
+Message: sắp tới xuân tình nguyện có gì làm ta ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.872830278536863 	 Success: True 
+Message: hội thảo sắp tới bao gồm những hoạt động nào bạn nhỉ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8225065307309929 	 Success: True 
+Message: xuân tình nguyện mình có nhảy múa hát hò gì cho các em không ad 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9254392464088431 	 Success: True 
+Message: mình có được quyên góp đồ cho trẻ em nghèo trong chiến dịch xuân tình nguyện không ạ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.819269067078579 	 Success: True 
+Message: xuân tình nguyện gồm những hoạt động nào vậy 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8471279468384557 	 Success: True 
+Message: có những việc gì trong sự kiện này vậy? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8480639389728324 	 Success: True 
+Message: hội thảo sắp tới bao gồm những hoạt động nào bạn nhỉ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8225065307309929 	 Success: True 
+Message: tham gia mùa hè xanh là phải ở chung nhà dân luôn hả? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8664408668277788 	 Success: True 
+Message: ở mùa hè xanh mình cần làm những gì vậy? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9512814707419678 	 Success: True 
+Message: vậy thì vô đó thì làm gì vậy bạn 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8947571581274872 	 Success: True 
+Message: tham gia mùa hè xanh có vui không??? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.934270140490684 	 Success: True 
+Message: hội trại connection khoa máy tính có những trò chơi gì vui vậy bạn? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8489059322732776 	 Success: True 
+Message: mình được làm cái gì khi tham gia tình nguyện mùa hè xanh vậy ad ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9283328860579368 	 Success: True 
+Message: tham gia chiến dịch tình nguyện này thì mình làm những công việc gì  	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9573697054283364 	 Success: True 
+Message: đi mùa hè xanh thì làm gì ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.987926518905408 	 Success: True 
+Message: bạn kể mình mấy hoạt động cần làm khi đi mùa hè xanh 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8413806826410938 	 Success: True 
+Message: đi xuân tình nguyện là mình đi giúp đỡ trẻ em nghèo phải không bạn ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9036720553282841 	 Success: True 
+Message: hoạt động sắp tới có những công việc gì nhỉ ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8779683806394111 	 Success: True 
+Message: mình chưa biết là đi mùa hè xanh thì  mình sẽ làm những gì 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9602044835637971 	 Success: True 
+Message: hoạt động công tác xã hội của khoa máy tính như thế nào? 	 Intent_label: work 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: làm cộng tác viên cho bk league thì làm những gì nhỉ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9592199448104984 	 Success: True 
+Message: đi mùa hè xanh thì mình làm những công việc gì  	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9895130761679479 	 Success: True 
+Message: có những hoạt động gì khi tham gia mùa hè xanh vậy ạ ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8447973648177353 	 Success: True 
+Message: hoạt động của ban chuyên môn câu lạc bộ gia sư bách khoa là làm những công việc gì vậy bạn? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.92348184760039 	 Success: True 
+Message: mùa hè xanh có hoạt động gì vậy bạn ơi ? 	 Intent_label: work 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: đi mùa hè xanh có những hoạt động gì nhỉ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9736788854673997 	 Success: True 
+Message: xuân tình nguyện mình làm gì ở đó vậy ạ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8204878413717986 	 Success: True 
+Message: tham gia mùa hè xanh có cần lao động nhiều không? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8611508425988263 	 Success: True 
+Message: đi mùa hè xanh thì làm gì ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.987926518905408 	 Success: True 
+Message: sự kiện xuân tình nguyện có những hoạt động gì ạ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8812225203795908 	 Success: True 
+Message: mùa hè xanh thì mình làm gì á ad 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.92412561526375 	 Success: True 
+Message: đến jobfair sẽ được tham gia những hoạt động gì vậy  có quà không? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8497762174757187 	 Success: True 
+Message: hội thảo có những hoạt động nào bạn nhỉ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8608873229113919 	 Success: True 
+Message: có những công việc gì ở hoạt động sắp tới vậy bạn ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8601577516961397 	 Success: True 
+Message: tham gia mùa hè xanh là làm những việc gì? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9792664835914432 	 Success: True 
+Message: dynamic day gồm những hoạt động nào vậy  có đường chạy gì đấy đúng không bạn? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.944078926922185 	 Success: True 
+Message: cho mình hỏi thông tin về những việc cần làm trong hội thảo nha admin 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8280879918253272 	 Success: True 
+Message: tiếp sức mùa thi gồm những hoạt động nào vậy bạn? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9138354731396454 	 Success: True 
+Message: trong chiến dịch mùa hè xanh mình có phải xây nhà giúp đỡ người dân không ạ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8302736314669 	 Success: True 
+Message: mùa hè xanh là đi trồng cây ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8545849457862643 	 Success: True 
+Message: xuân tình nguyện có cần phải làm gì không 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9117373545141398 	 Success: True 
+Message: hoạt động sắp tới có gì vui nhỉ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8521931776257177 	 Success: True 
+Message: hội trại cse connection 2019 vừa qua gồm những hoạt động gì ạ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8476738812745439 	 Success: True 
+Message: tham gia hoạt động này thì mình làm những gì thế 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8907684142468144 	 Success: True 
+Message: mùa hè xanh có gì vui không bạn 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9293233732413229 	 Success: True 
+Message: tôi được làm những công việc gì khi tham gia hoạt động vậy bạn ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9415013790451254 	 Success: True 
+Message: tham gia sự kiện này thì tớ phải làm gì vậy  	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8569525279234211 	 Success: True 
+Message: hoạt động sắp tới mình đi thì có gì làm không ta ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8758818172779719 	 Success: True 
+Message: các hoạt động trong kms tour diễn ra song song hay tuần tự nhỉ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.840202402798143 	 Success: True 
+Message: neuron marathon có chia thành nhiều phần thi không ạ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8565566859209733 	 Success: True 
+Message: cần làm những công việc gì khi tham gia chương trình tiếp sức mùa thi vậy ad? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9492043485030826 	 Success: True 
+Message: tham gia game jam 2019 là làm gì bot? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8638920599286506 	 Success: True 
+Message: có những hoạt động nào trong chiến dịch xuân tình nguyện nhỉ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9406583876053608 	 Success: True 
+Message: đi hội trại thì làm gì vậy 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9430389021565002 	 Success: True 
+Message: nghe nói mùa hè xanh phải xây đường ạ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8168345897179635 	 Success: True 
+Message: đi mùa hè xanh là làm gì bạn 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9900507722782862 	 Success: True 
+Message: xuân tình nguyện sắp tới đi có hoạt động gì vậy ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8339154084182797 	 Success: True 
+Message: tham gia neuron marathon rồi có phải chạy marathon hay hoạt động thể thao gì không bạn  hay là có hoạt động nào khác? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8629099174635733 	 Success: True 
+Message: mình được làm cái gì khi tham gia sự kiện này vậy bạn ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9139866924793495 	 Success: True 
+Message: đi mùa hè xanh thì làm gì bạn 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9909234632865132 	 Success: True 
+Message: cho mình biết về các công việc trong mùa hè xanh đi 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8418078968968666 	 Success: True 
+Message: tham gia job fair thì mình được làm gì ta 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9341541190955015 	 Success: True 
+Message: xuân tình nguyện có phải đi gói bánh chưng không bạn ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9026890046623037 	 Success: True 
+Message: tôi cần một số thông tin về công việc cần làm trong hoạt động này 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8495604086146331 	 Success: True 
+Message: jobfair có những hoạt động nào vậy bạn ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8487851598118478 	 Success: True 
+Message: neuron marathon bao gồm những nội dung nào vậy? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8452045298952052 	 Success: True 
+Message: điều kiện tham gia mùa hè xanh là gì? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8637945506678931 	 Success: True 
+Message: tham gia mùa hè xanh là chúng ta tham gia làm những việc gì vậy 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9370425154180592 	 Success: True 
+Message: mùa hè xanh bình thường mình làm gì hen 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9234354294276503 	 Success: True 
+Message: đi mùa hè xanh có những hoạt động nào nhỉ  	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9668548597930157 	 Success: True 
+Message: xuân tình nguyện có gì chơi không ta? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8471326573818686 	 Success: True 
+Message: tham gia hoạt động này thì tôi làm những công việc gì vậy ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9530459357483417 	 Success: True 
+Message: tham gia hậu duệ pascal có được thi lập trình không bạn 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8255083818111282 	 Success: True 
+Message: đi mùa hè xanh làm đi giúp đỡ những người khó khăn hay sao nhỉ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9277134287384161 	 Success: True 
+Message: tham gia job fair 2019 mình có được gặp gỡ và tiếp xúc với các doanh nghiệp nước ngoài không ạ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8626557522240421 	 Success: True 
+Message: xuân tình nguyện mình có được quẩy cùng các em không ạ hay chỉ làm đồ thôi 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9169178801484147 	 Success: True 
+Message: ad ơi  mình là nữ  khi mà tham gia mùa hè xanh thì có phải ngủ chung với nam không ạ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8521899326228111 	 Success: True 
+Message: tham gia hội thao khoa cơ khí được chơi môn thể thao nào vậy bạn 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8507828534494132 	 Success: True 
+Message: vậy hoạt động này cụ thể thì làm gì vậy bạn ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.845454868798225 	 Success: True 
+Message: mình đi mùa hè xanh thì có gì cho mình làm không ta ?  	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9345530974450377 	 Success: True 
+Message: mình đi mùa hè xanh là để giúp đỡ trẻ em nghèo khó nhỉ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8174854642836767 	 Success: True 
+Message: hic mình con gái  hội trại nhiều trai quá đi có bị cô đơn ko ạ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8634187501884056 	 Success: True 
+Message: khi tham gia chiến dịch mùa hè xanh làm chúng mình sẽ làm những việc gì vậy 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9784188867964352 	 Success: True 
+Message: cuộc thi thì sao nhỉ 	 Intent_label: work 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: ngoài đêm nhạc ra thì mình còn làm gì vào hôm dynamic day nữa nhỉ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9301186114430506 	 Success: True 
+Message: mùa hè xanh sắp tới mình đi có gì làm vậy bạn? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9707686524623751 	 Success: True 
+Message: đi mùa hè xanh là đi làm gì ha 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8732721910111949 	 Success: True 
+Message: tôi được phép làm gì trong quá trình tham dự sự kiện này 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8470403211791706 	 Success: True 
+Message: đi hoạt động này có việc gì làm không nhỉ ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9253267335439876 	 Success: True 
+Message: sắp tới mùa hè xanh có gì làm 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8390703788173189 	 Success: True 
+Message: đi xuân tình nguyện thì mình làm những công việc nào bạn nhỉ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9898789577056324 	 Success: True 
+Message: khi tham gia cse job fair thì mình làm những gì 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9491774637926549 	 Success: True 
+Message: tham gia xuân tình nguyện thì làm những hoạt động gì vậy? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.951085312559152 	 Success: True 
+Message: trong sự kiện này thì có những công việc nào cần phải làm vậy bạn ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9843270124069358 	 Success: True 
+Message: hoạt động này làm việc gì 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8543156155189208 	 Success: True 
+Message: cse connection? 	 Intent_label: work 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: tham dự hội thảo này làm gì vậy bạn? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.929772292545009 	 Success: True 
+Message: chiến dịch xuân tình nguyện là làm gi vậy bạn? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8781913719774646 	 Success: True 
+Message: có phải tham gia xuân tình nguyện thì mình sẽ đi trao quà tết cho những người có hoàn cảnh khó khăn không nhỉ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9424985671721163 	 Success: True 
+Message: hoạt động tiếp sức mùa thi gồm những hoạt động gì thế 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.889660939065351 	 Success: True 
+Message: ủa ad ơi mùa hè xanh bình thường mình làm gì  có cực không ạ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.947025171930371 	 Success: True 
+Message: tham gia chiến dịch mùa hè xanh thì mình phải làm những gì ạ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.971182000360949 	 Success: True 
+Message: mùa hè xanh ngoài làm đường có còn làm gì khác không bạn ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9783157361898557 	 Success: True 
+Message: đi mùa hè xanh ngoài làm đường ra thì mình còn làm gì nữa bạn? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9445401106626209 	 Success: True 
+Message: tham gia xuân tình nguyện là phải làm những công việc gì? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9674619912569403 	 Success: True 
+Message: mình muốn đi dạy thêm vậy mình có nên tham gia câu lạc bộ gia sư không ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8572432173157253 	 Success: True 
+Message: đi xuân tình nguyện thì mình thường làm những công việc gì  	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9929566114042693 	 Success: True 
+Message: thường thì tham gia cộng tác viên hội trại chào người bạn mới tôi phải làm công việc gì ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9165542249677825 	 Success: True 
+Message: tham gia mùa hè xanh là làm những gì ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9889757875433901 	 Success: True 
+Message: chiến dịch xuân tình nguyện năm nay gồm những hoạt động gì ạ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8712733043271416 	 Success: True 
+Message: mình muốn hỏi về những hoạt động có trong chiến dịch xuân tình nguyện nha bạn 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8595890548852734 	 Success: True 
+Message: mình làm gì khi tham gia cse job fair 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.914153866120606 	 Success: True 
+Message: sắp tới đi mùa hè xanh có gì làm ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9365784114076017 	 Success: True 
+Message: tham gia hậu cần cho hội thảo cần làm những gì ạ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9526565707602389 	 Success: True 
+Message: đi mùa hè xanh có gì làm không bạn 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9900328095793415 	 Success: True 
+Message: khi đi mùa hè xanh thì mình sẽ làm gì vậy bạn? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9463357987159389 	 Success: True 
+Message: làm cơm từ thiện thì mình có cần nấu cơm không bạn 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9265029313015609 	 Success: True 
+Message: sinh viên đi mùa hè xanh cần làm những việc gì? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9401197146968447 	 Success: True 
+Message: đi mùa hè xanh thì làm gì ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.987926518905408 	 Success: True 
+Message: có khi nào mùa hè xnah phải trèo cây không ạ  mình không biêt trèo 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9056411164535937 	 Success: True 
+Message: ngoài việc làm đường ra thì mùa hè xanh còn có những hoạt động nào nữa vậy 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.95697058555489 	 Success: True 
+Message: cho mình hỏi đi mùa hè xanh thì làm gì nhỉ ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9371551690137988 	 Success: True 
+Message: ủa hội trại của mình ad có chắc là sẽ quen được nhiều bạn hông  tại em đi có 1 mình à 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8327428138743256 	 Success: True 
+Message: mùa hè xanh có những hoạt động nào bạn nhỉ ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9266136557301943 	 Success: True 
+Message: có những việc gì làm khi tham gia mùa hè xanh ạ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9371253163921276 	 Success: True 
+Message: kms tour 2019 gồm những hoạt động gì ạ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8701083290899343 	 Success: True 
+Message: đi hoạt động này thì mình phải làm những gì? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9689450809254008 	 Success: True 
+Message: mùa hè xanh mình có phải lội sông suối gi không  mình không biết bơi :(( 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9324241014971378 	 Success: True 
+Message: cho mình hỏi những công việc sẽ làm trong chiến dịch xuân tình nguyện với 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9133316120465307 	 Success: True 
+Message: chiến dịch tiếp sức mùa thi có điều gì thú vị không bạn nhỉ? 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.892862689547768 	 Success: True 
+Message: cho mình hỏi đi hiến máu là phải làm gì vậy bạn  	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8314485746752912 	 Success: True 
+Message: đi mùa hè xanh làm gì 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.9901761027365966 	 Success: True 
+Message: đi hoạt động này có gì chơi không nhỉ 	 Intent_label: work 	 Intent_predict: work 	 Probability: 0.8717089914133405 	 Success: True 
+Message: xin chào admin nè 	 Intent_label: hello 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: chào admin yêu dấu 	 Intent_label: hello 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: chào buổi sáng bạn 	 Intent_label: hello 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: chào bạn 	 Intent_label: hello 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: xin chào 	 Intent_label: hello 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: chào 	 Intent_label: hello 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: chào ấy 	 Intent_label: hello 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: xin chào rất vui được biết bạn 	 Intent_label: hello 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: chào ad 	 Intent_label: hello 	 Intent_predict: activity 	 Probability: 0.7583017597452013 	 Success: False 
+Message: bye 	 Intent_label: bye 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: tạm biệt nhé 	 Intent_label: bye 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: tạm biệt 	 Intent_label: bye 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: chào tạm biệt 	 Intent_label: bye 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: bye bye bạn 	 Intent_label: bye 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: bai bạn 	 Intent_label: bye 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: xin chào hẹn gặp lại 	 Intent_label: bye 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: chào tạm biệt và hẹn gặp lại 	 Intent_label: bye 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: good bye 	 Intent_label: bye 	 Intent_predict: work 	 Probability: 0.8951820978158077 	 Success: False 
+Message: bái bai 	 Intent_label: bye 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: bạn dễ thương quá hihi 	 Intent_label: not intent 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: vcl 	 Intent_label: not intent 	 Intent_predict: activity 	 Probability: 0.7735302678195468 	 Success: False 
+Message: chào chào cái qq 	 Intent_label: not intent 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: hello cc 	 Intent_label: not intent 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: nay trời đẹp quá bạn ơi 	 Intent_label: not intent 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: trời trong xanh gió trong lành là lá la 	 Intent_label: not intent 	 Intent_predict: work 	 Probability: 0.8367667964665632 	 Success: False 
+Message: đi seminar xong thì ta lau nhà là lá la 	 Intent_label: not intent 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: học bách khoa thật là tuyệt 	 Intent_label: not intent 	 Intent_predict: activity 	 Probability: 0.7547353146872446 	 Success: False 
+Message: học bách khoa ế chắc luôn 	 Intent_label: not intent 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: tại sao giờ vẫn chưa có bạn gái 	 Intent_label: other 	 Intent_predict: activity 	 Probability: 0.7706413750977288 	 Success: False 
+Message: làm sao để tán gái vậy 	 Intent_label: other 	 Intent_predict: other 	 Probability: 1.0 	 Success: True 
+Message: cho xin thông tin bạn nữ xinh xắn làm ở sino gần trường đi 	 Intent_label: other 	 Intent_predict: other 	 Probability: 1.0 	 Success: True 
+Message: đang nghĩ về những điều nhân gian không thể hiểu 	 Intent_label: not intent 	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Message: cho xin số điện thoại bạn đi nào 	 Intent_label: other 	 Intent_predict: other 	 Probability: 1.0 	 Success: True 
+Message: số đo 3 vòng của ngọc trinh là gì 	 Intent_label: other 	 Intent_predict: other 	 Probability: 1.0 	 Success: True 
+Message: nguyễn quang hải quê ở đâu 	 Intent_label: other 	 Intent_predict: name_place 	 Probability: 1.0 	 Success: False 
+Message: đoàn văn hậu nặng bao nhiêu ký 	 Intent_label: other 	 Intent_predict: other 	 Probability: 1.0 	 Success: True 
+Message: xem xx ở đâu thì không bị chặn 	 Intent_label: other 	 Intent_predict: name_place 	 Probability: 1.0 	 Success: False 
+Message: cho xin thông tin nhà mạng viettel 	 Intent_label: other 	 Intent_predict: other 	 Probability: 1.0 	 Success: True 
+Message: cho mình xin facebook bạn dương đẹp trai đi nào 	 Intent_label: other 	 Intent_predict: contact 	 Probability: 0.7598950377740046 	 Success: False 
+Message: bạn có thông tin gì về bạn minh nhật không 	 Intent_label: other 	 Intent_predict: other 	 Probability: 1.0 	 Success: True 
+Message: nồi cơm điện có cắm sừng không 	 Intent_label: other 	 Intent_predict: work 	 Probability: 0.7550946196220887 	 Success: False 
+Message: nấu cơm có cần bỏ nước sôi không vậy 	 Intent_label: other 	 Intent_predict: work 	 Probability: 0.8256491068475065 	 Success: False 
+Message: làm sao để trị hôi nách trong vòng 7 ngày 	 Intent_label:  	 Intent_predict: other 	 Probability: 1.0 	 Success: False 
+Success rate: 86.97355533790402 %

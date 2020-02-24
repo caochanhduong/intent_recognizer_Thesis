@@ -28,16 +28,23 @@ def forward_dropout(input_sentence):
   t = torch.tensor([sentence_to_index_vector(input_sentence)])
   lm.reset()
   raw_output, dropout_output = lm[0](t)
+  
   dropout_output_last_lst=dropout_output[2].detach().numpy().tolist()
   dropout_output_last_lst=dropout_output_last_lst[0]
+#   print(dropout_output_last_lst)
   max_pooling_lst=[]
   avg_pooling_lst=[]
+  
   for i in range(emb_sz):
     lst_one_emb=[]
     for j in range(len(dropout_output_last_lst)-1):
-      lst_one_emb.append(dropout_output_last_lst[j][i])
-    max_pooling_lst.append(max(lst_one_emb))
-    avg_pooling_lst.append(sum(lst_one_emb) / len(lst_one_emb) )
+        lst_one_emb.append(dropout_output_last_lst[j][i])
+    if len(dropout_output_last_lst)==1:
+        max_pooling_lst.append(dropout_output_last_lst[0][i])
+        avg_pooling_lst.append(dropout_output_last_lst[0][i])
+    else:    
+        max_pooling_lst.append(max(lst_one_emb))
+        avg_pooling_lst.append(sum(lst_one_emb) / len(lst_one_emb) )
   return max_pooling_lst+avg_pooling_lst+dropout_output_last_lst[-1]
 
 
@@ -176,6 +183,7 @@ if __name__ == '__main__':
     num_success_testcases=0
     num_testcases=len(testcases)
     for testcase in testcases:
+        # print(testcase)
         success=False
         testcase_without_enter=testcase.replace('\n', '').split('|')
         message=testcase_without_enter[0]
@@ -188,3 +196,4 @@ if __name__ == '__main__':
     output_test_file.write("Success rate: {0} %".format(100*float(num_success_testcases)/num_testcases))
     output_test_file.close()
     testcase_file.close()
+    # print(extract_and_get_intent("chào"))
